@@ -5,7 +5,7 @@ import useWindowSize from '../../../hooks/UseWindowSize';
 import ProductInfoSlider from '../../slider/ProductInfoSlider';
 
 interface IProps {
-    photos: IRealPhoto[];
+    photos: string[];
     close: () => void;
 }
 

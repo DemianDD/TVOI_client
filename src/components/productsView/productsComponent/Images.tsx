@@ -3,7 +3,7 @@ import Spinner from '../../loading/Spinner';
 import {Image} from "@nextui-org/react";
 
 interface IProps {
-  images: IImage[];
+  images: string[];
   behaviour: ImageBehaviour;
 }
 
@@ -17,6 +17,7 @@ export const Images = (props: IProps) => {
     const [images, setImages] = React.useState(props.images);
 
     React.useEffect(() => {
+        console.log(props.images)
         if (props.images) {
             setImages([...props.images]);
         }
@@ -35,10 +36,10 @@ export const Images = (props: IProps) => {
     return SingleImage(images[0]);
 };
 
-const MultipleImages = (images: IImage[], select: (id: number) => void) => {
-    const firstImage = images[0].url;
+const MultipleImages = (images: string[], select: (id: number) => void) => {
+    const firstImage = images[0];
     const imageList = images.slice(1, 4).map((i, id) => (
-        <img key={id} src={i.url}/>
+        <img key={id} src={i}/>
     ))
 
     return(
@@ -46,7 +47,7 @@ const MultipleImages = (images: IImage[], select: (id: number) => void) => {
             <div className="prImg">
             <div className='grid grid-cols-2 gap-5 mb-3'>
                 {images.slice(0, 4).map((i, id) => (
-                    <img key={id} className='w-full h-full' src={i.url} onClick={() => select(id + 1)}/>
+                    <img key={id} className='w-full h-full' src={i} onClick={() => select(id + 1)}/>
                 ))}
             </div>
         </div>
@@ -54,7 +55,7 @@ const MultipleImages = (images: IImage[], select: (id: number) => void) => {
     )
 }
 
-const SingleImage = (image: IImage) => {
+const SingleImage = (image: string) => {
     const [isLoading, setIsLoading] = React.useState(true);
 
     const handleImageLoad = () => {
@@ -64,7 +65,7 @@ const SingleImage = (image: IImage) => {
         <div className='w-full'>
             {isLoading && <div className='h-full flex justify-center items-center'><Spinner/></div>}
             <img 
-                src={image.url}
+                src={image}
                 className='w-full'
                 onLoad={handleImageLoad}
                 style={{borderRadius: '6px 6px 0px 0px'}}

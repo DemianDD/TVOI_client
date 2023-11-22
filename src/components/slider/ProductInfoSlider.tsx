@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export interface IProps {
-  images: IImage[];
+  images: string[];
 }
 
 const ProductInfoSlider = (props: IProps) => {
@@ -30,7 +30,7 @@ const ProductInfoSlider = (props: IProps) => {
             }}
           >
             <LazyLoadImage
-              src={image.url}
+              src={image}
               alt={`Image ${index + 1}`}
               className="slider-image"
             />

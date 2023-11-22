@@ -14,8 +14,8 @@ export function getFilterCriteriaBasedOnProducts(products: IProduct[]): IItem[] 
       
       if (p.colors) {
         p.colors.forEach(c => {
-          if (colorItems.Items!.findIndex(i => i.Title === c.name) === -1) {
-            colorItems.Items?.push({ Title: c.name, Value: c.name, Path: "name" });
+          if (colorItems.Items!.findIndex(i => i.Title === c) === -1) {
+            colorItems.Items?.push({ Title: c, Value: c, Path: "name" });
           }
         });
       }

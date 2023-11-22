@@ -9,12 +9,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 interface IProps {
-  photos: IImage[];
+  photos: string[];
   isBorderRounded?: boolean;
 }
 
 function Slider(props: IProps) {
-  const [photos, setPhotos] = useState<IImage[]>(props.photos);
+  const [photos, setPhotos] = useState<string[]>(props.photos);
   useEffect(() => {
     setPhotos([...props.photos]);
   }, [props.photos]);
@@ -29,7 +29,7 @@ function Slider(props: IProps) {
       {photos.map((photo, index) => {
         return(
           <SwiperSlide key={index}>
-            <img src={photo.url} className='w-full max-h-[430px] object-contain'/>
+            <img src={photo} className='w-full max-h-[430px] object-contain'/>
           </SwiperSlide>
         )
       })}

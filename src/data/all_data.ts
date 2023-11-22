@@ -1,6 +1,6 @@
 import { translateText } from "../services/translation.service";
 
-export const ALL_DATA: IProduct[] = [
+export const ALL_DATA: any[] = [
 
   // BRACELETS
   {

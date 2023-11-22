@@ -51,16 +51,16 @@ interface IProduct extends IIdentifier
 	brand: string;
 	price: number;
 	salePrice: number;
-	images: IImage[];
+	images: string[];
 	weight: number;
-	colors: IColor[];
+	colors: string[];
 	metal: string;
-	sizes: ISize[];
+	sizes: string[];
 	description: string;
 	popularity: number;
 	customPopularity: number;
 	packaging: string;
-	realPhotos: IRealPhoto[];
+	realPhotos: string[];
 	createdAt?: any;
 	updatedAt?: any;
 }

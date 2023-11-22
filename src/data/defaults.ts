@@ -1,25 +1,13 @@
 export const defaultNumber = 0;
 export const defaultText = "...";
 
-export const defaultImage: IImage = {
-    id: defaultText,
-    url: "https://kubalubra.is/wp-content/uploads/2017/11/default-thumbnail.jpg"
-}
+export const defaultImage: string = "https://kubalubra.is/wp-content/uploads/2017/11/default-thumbnail.jpg";
 
-export const defaultRealPhoto = {
-    id: defaultText,
-    url: "https://kubalubra.is/wp-content/uploads/2017/11/default-thumbnail.jpg"
-}
+export const defaultRealPhoto: string = "https://kubalubra.is/wp-content/uploads/2017/11/default-thumbnail.jpg";
 
-export const defaultColor: IColor = {
-    id: defaultText,
-    name: defaultText
-}
+export const defaultColor: string = defaultText;
 
-export const defaultSize: ISize = {
-    id: defaultText,
-    value: defaultText
-}
+export const defaultSize: string = defaultText;
 
 export const defaultProduct: IProduct = {
     id: defaultText,

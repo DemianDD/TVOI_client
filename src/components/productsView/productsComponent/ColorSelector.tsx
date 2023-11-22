@@ -3,7 +3,7 @@ import "../../../styles/selector.css";
 import { translateText } from "../../../services/translation.service";
 
 interface IProps {
-  colors: IColor[];
+  colors: string[];
   onColorSelect: (color: string) => void;
 }
 
@@ -41,29 +41,29 @@ export const ColorSelector = (props: IProps) => {
   const renderColorOptions = () => {
     return props.colors.map((color) => {
       let imageUrl = "";
-      if (color.name === translateText("silver|A")) {
+      if (color === translateText("silver|A")) {
         imageUrl = SILVER;
-      } else if (color.name === translateText("gold|A")) {
+      } else if (color === translateText("gold|A")) {
         imageUrl = GOLD;
-      } else if (color.name === translateText("rosegold|A")) {
+      } else if (color === translateText("rosegold|A")) {
         imageUrl = ROSEGOLD;
-      } else if (color.name === translateText("white|A")) {
+      } else if (color === translateText("white|A")) {
         imageUrl = WHITE;
-      } else if (color.name === translateText("black|A")) {
+      } else if (color === translateText("black|A")) {
         imageUrl = BLACK;
-      } else if (color.name === translateText("bluetiffany|A")) {
+      } else if (color === translateText("bluetiffany|A")) {
         imageUrl = BLUETIFFANY;
-      } else if (color.name === translateText("red|A")) {
+      } else if (color === translateText("red|A")) {
         imageUrl = RED;
-      } else if (color.name === translateText("military|A")) {
+      } else if (color === translateText("military|A")) {
         imageUrl = MILITARY;
-      } else if (color.name === translateText("rose|A")) {
+      } else if (color === translateText("rose|A")) {
         imageUrl = ROSEGOLD;
-      } else if (color.name === translateText("darkblue|A")) {
+      } else if (color === translateText("darkblue|A")) {
         imageUrl = DARKBLUE;
       }
 
-      return renderColorOption(color.name, imageUrl);
+      return renderColorOption(color, imageUrl);
     });
   };
 

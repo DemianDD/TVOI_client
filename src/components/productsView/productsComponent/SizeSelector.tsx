@@ -2,7 +2,7 @@ import React from "react";
 import "../../../styles/selector.css";
 
 interface IProps {
-  sizes: ISize[];
+  sizes: string[];
   onSizeSelect: (size: string) => void;
 }
 
@@ -28,7 +28,7 @@ export const SizeSelector = (props: IProps) => {
 
   const renderColorOptions = () => {
     return props.sizes.map((size) => {
-      return renderSizeOption(size.value);
+      return renderSizeOption(size);
     });
   };
 
