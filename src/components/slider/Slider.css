@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .slider-container__secondary {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-container__secondary::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slide {
+    display: none;
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo {
+    width: 100%;
+    max-height: 390px;
+    object-fit: cover;
+  }
+
+  .photo-rounded {
+    width: 100%;
+    max-height: 390px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border: none;
+  }
+  
+  /* Position the "next" button to the right */
+  .next {
+    right: 0;
+  }
+  
+  /* On hover, add a semi-transparent black background */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .caption {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* The dots indicator */
+  .dots {
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 3%;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 6px;
+    width: 6px;
+    margin: 0 2px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.5s;
+  }
+
+  .dotsStyle{
+    border-radius: 15px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 4px 7px;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #6a6a6a;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    opacity: none;
+    animation-duration: 1.5s;
+  }
+
+  .fade:not(.show) {
+    opacity: 1; 
+}
+  
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.5s forwards;
+}
+
+.fade-out {
+  animation: fade-out 0.5s forwards;
+}

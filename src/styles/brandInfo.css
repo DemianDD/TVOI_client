@@ -1,0 +1,21 @@
+@media(max-width: 1030px) {
+    .bannerBrand{
+        border-radius: 0px 0px 15px 15px;
+        top: 15px !important;
+    }
+}
+.bannerBrand{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 13px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    background-color: white;
+    color: #232323;
+    margin-bottom: 25px;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}

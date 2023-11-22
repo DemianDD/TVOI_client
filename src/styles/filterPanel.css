@@ -1,0 +1,33 @@
+@media(max-width: 770px) {
+    .filter-panel-element {
+        padding: 10px 10px !important;
+    }
+}
+
+.filter-panel-container {
+    position: relative;
+}
+  
+.filter-panel-element {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 10px 25%;
+    background-color: white;
+}
+
+.filter-panel-element::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-panel-container button{
+    min-width: 115px;
+    background-color: transparent;
+    border: cornflowerblue solid 1px;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: cornflowerblue;
+    font-size: 12px;
+    padding: 2.5px 0px;
+}

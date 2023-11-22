@@ -1,0 +1,73 @@
+@media(max-width: 1030px) {
+    .toolbarPosition{
+        border-radius: 10px !important;
+        
+    }
+    
+    .toolbarBtn{
+        padding: 5px !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+}
+
+@media(max-width: 640px) {
+    .toolbarPosition{
+        margin-top: 0 !important;
+        margin-bottom: 5px !important;
+        border-radius: 10px !important;
+    }
+    
+    .toolbarBtn{
+        width: auto !important;
+        flex: 1 !important;
+        border-radius: 10px !important;
+        padding: 5px !important;
+        margin: 0px !important; 
+    }
+}
+
+.toolbarPosition{
+    width: 100%;
+    margin-bottom: 2.5px;
+    margin-top: 5px;
+}
+.toolbarStyle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.toolbarBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    border: #9ec8fc 1px solid;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.toolbarBtn:hover{
+    background-color: #bedbff;
+    transition: 0.2s;
+}
+
+.textMainDesc{
+    color: #6a6a6a;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.flexStyle{
+    flex: 1;
+}
+

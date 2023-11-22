@@ -1,0 +1,87 @@
+@media(max-width: 850px) {
+    .btnFilter{
+      border-radius: 10px !important;
+    }
+  }
+.nestedList{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nestedItems {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 1px 10px;
+}
+
+.multiItem {
+    text-transform: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 5px;
+}
+.multiItem:hover{
+    color: rgb(200, 200, 200);
+    transition: 0.1s;
+}
+
+.singleItem {
+    text-transform: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 5px;
+}
+.singleItem:hover{
+    color: rgb(200, 200, 200);
+    transition: 0.1s;
+}
+
+.multiSubMenu {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.itemSelect{
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    margin: 0px 2.5px 5px 2.5px;
+    padding: 7px;
+}
+
+.btnFilter{
+    padding: 7px;
+    background-color: rgb(19 19 19);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 0.5px;
+    transition: 0.2s;
+    outline: none;
+}
+
+.btnFilterCancel{
+    padding: 7px;
+    background-color: transparent;
+    color: #232323;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 0.5px;
+    transition: 0.1s;
+    outline: none;
+}

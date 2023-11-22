@@ -1,0 +1,13 @@
+.move-down {
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in-out;
+}
+  
+.move-up {
+  max-height: 150px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.transition-max-h {
+  overflow: hidden;
+}
