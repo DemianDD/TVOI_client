@@ -12,7 +12,6 @@ const inputFields = [
     { type: 'text', propertyName: 'labelName', placeholder: 'Label Name' },
     { type: 'number', propertyName: 'price', placeholder: 'Price' },
     { type: 'number', propertyName: 'salePrice', placeholder: 'Sale Price' },
-    { type: 'text', propertyName: 'category', placeholder: 'Category' },
     { type: 'text', propertyName: 'brand', placeholder: 'Brand' },
     { type: 'text', propertyName: 'collection', placeholder: 'Collection' },
     { type: 'text', propertyName: 'metal', placeholder: 'Metal' },
