@@ -61,6 +61,7 @@ export const ProductContext = createContext<ProductContextProps>({
 
 export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) => {
     const [products, setProducts] = React.useState<IProduct[]>([]);
+    const [triggerReload, setTriggerReload] = React.useState(false);
     const [searchedProducts, setSearchedProducts] = React.useState<IProduct[]>([]);
     const [inputValue, setInputValue] = React.useState('');
     const [productFields, setProductFields] = React.useState<IEditProduct>({
@@ -138,6 +139,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
         axios.post('http://localhost:10000/api/postProduct', productFields)
         .then(response => {
             console.log(response.data);
+            setTriggerReload(!triggerReload);
         })
         .catch(error => {
             console.error('Error:', error);
@@ -166,7 +168,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
 
     React.useEffect(() => {
         getProducts();     
-    }, []);
+    }, [triggerReload]);
 
     const search = React.useCallback(
         debounce((query) => {
