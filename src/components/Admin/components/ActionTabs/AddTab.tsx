@@ -79,7 +79,6 @@ const AddTab = ({inputFields}) => {
                 variant='contained'
                 size='small'
                 onClick={handleAddProduct}
-                disabled={emptyFields.length > 0}
             >
                 Add Product
             </Button>
