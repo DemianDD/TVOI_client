@@ -14,7 +14,7 @@ import { SortOrder } from './data/sortCriteria';
 import ScrollToTop from './components/scroller/ScrollToTop';
 import translationService from './services/translation.service';
 import Spinner from './components/loading/Spinner';
-import Admin from './pages/Admin';
+import Admin from './components/Admin/Admin';
 
 //const productsFn = (products: IProduct[]) => products;
 

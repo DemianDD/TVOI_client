@@ -24,7 +24,7 @@ import Description from "../components/productsView/productsComponent/Descriptio
 import Tips from "../components/Tips";
 import ProductInfoSlider from "../components/slider/ProductInfoSlider";
 import { UserContext } from "../context/user-context";
-import EditPanel from "../components/windows/EditPanel";
+import EditPanel from "../components/Admin/SidePanel";
 import TabPanel from "../components/productOverviewPanel/components/TabPanel";
 
 const Product = () => {
