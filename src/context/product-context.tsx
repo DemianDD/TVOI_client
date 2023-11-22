@@ -4,6 +4,7 @@ import { ALL_DATA } from '../data/all_data';
 import { ALL } from 'dns';
 import { debounce } from 'lodash';
 import axios from 'axios';
+import { SelectChangeEvent } from '@mui/material/Select';
 
 interface ProductProviderProps {
     children: ReactNode;
@@ -19,10 +20,12 @@ interface ProductContextProps {
     inputValue: string;
     setInputValue: React.Dispatch<React.SetStateAction<string>>;
     productFields: IEditProduct;
+    category: string;
     handleInputChange: (propertyName: string, value: string | number | any[]) => void,
-    updateProduct: (productId: string, newProductData: IEditProduct) => void,
+    handleSelectChange: (event: SelectChangeEvent) => void;
     postProduct: () => void;
     deleteAllProducts: () => void;
+    deleteProduct: (id: number) => void;
 }
 
 export const ProductContext = createContext<ProductContextProps>({
@@ -50,13 +53,14 @@ export const ProductContext = createContext<ProductContextProps>({
         sizes: [""],
         realPhotos: [""],
         collection: '',
-        category: '',
         weight: 0
     },
+    category: '',
+    handleSelectChange: () => {},
     handleInputChange: () => {},
-    updateProduct: () => {},
     postProduct: () => {},
     deleteAllProducts: () => {},
+    deleteProduct: () => {},
 });
 
 export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) => {
@@ -64,13 +68,14 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
     const [triggerReload, setTriggerReload] = React.useState(false);
     const [searchedProducts, setSearchedProducts] = React.useState<IProduct[]>([]);
     const [inputValue, setInputValue] = React.useState('');
+    const [category, setCategory] = React.useState('');
     const [productFields, setProductFields] = React.useState<IEditProduct>({
         count: 0,
         labelName: '',
         brand: '',
         metal: '',
-        description: 'Базова прикраса, яка найкраще підійде на будь-який день',
-        packaging: 'Коробочка для прикраси та фірмовий пакетик TVOI',
+        description: 'basic_desc|A',
+        packaging: 'basic_packaging|A',
         price: 0,
         salePrice: 0,
         popularity: 5,
@@ -80,7 +85,6 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
         sizes: [""],
         realPhotos: [""],
         collection: '',
-        category: '',
         weight: 0
     });
 
@@ -92,24 +96,9 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
         });
     };
 
-    const updateProduct = (productId: string, newProductData: IEditProduct) => {
-        const updatedProducts = ALL_DATA.map((product) => {
-          if (product.id === productId) {
-            return { ...product, ...newProductData };
-          }
-          return product;
-        });
-        //setProducts(updatedProducts);
-      
-        const updatedOriginalData = ALL_DATA.map((product) => {
-          if (product.id === productId) {
-            return { ...product, ...newProductData };
-          }
-          return product;
-        });
-      
-        localStorage.setItem('products', JSON.stringify(updatedOriginalData));
-    };
+    const handleSelectChange = (event: SelectChangeEvent) => {
+        setCategory(event.target.value);
+    }
 
     const getProducts = async () => {
         try {
@@ -136,7 +125,12 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
     }
 
     const postProduct = () => {
-        axios.post('http://localhost:10000/api/postProduct', productFields)
+        const productData = {
+            ...productFields,
+            category: category
+        };
+
+        axios.post('http://localhost:10000/api/postProduct', productData)
         .then(response => {
             console.log(response.data);
             setTriggerReload(!triggerReload);
@@ -150,6 +144,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
         axios.delete(`http://localhost:10000/api/deleteProduct/${id}`)
         .then(response => {
             console.log(response.data);
+            setTriggerReload(!triggerReload);
         })
         .catch(error => {
             console.error('Error:', error);
@@ -196,10 +191,12 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
             inputValue,
             setInputValue,
             productFields,
+            category,
+            handleSelectChange,
             handleInputChange,
-            updateProduct,
             postProduct,
-            deleteAllProducts
+            deleteAllProducts,
+            deleteProduct
         }}>
             {children}
         </ProductContext.Provider>

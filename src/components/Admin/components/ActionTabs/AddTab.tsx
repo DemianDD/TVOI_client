@@ -2,77 +2,75 @@ import React from 'react'
 import { ProductContext } from '../../../../context/product-context';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button/Button';
-import toastrService from '../../../../services/toastr.service';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
+import { categoriesRender } from '../../../../route/productsCategoryRoutes';
+import InputLabel from '@mui/material/InputLabel';
+
+function renderTextField(inputField, id, value, onChange) {
+    return (
+        <TextField
+            key={id}
+            size="small"
+            style={{ width: '100%', margin: '5px 0' }}
+            variant="standard"
+            type={inputField.type}
+            label={inputField.placeholder}
+            value={value}
+            onChange={(e) => onChange(e.target.value)}
+        />
+    );
+}
 
 const AddTab = ({inputFields}) => {
-    const { handleInputChange, productFields, postProduct } = React.useContext(ProductContext);
-    const [emptyFields, setEmptyFields] = React.useState<string[]>([]);
-
-    const areTextFieldsEmpty = () => {
-        const emptyFieldNames = inputFields
-            .filter(inputField => inputField.type === 'text')
-            .filter(inputField => !productFields[inputField.propertyName])
-            .map(inputField => inputField.propertyName);
-        setEmptyFields(emptyFieldNames);
-        return emptyFieldNames.length > 0;
-    };
+    const { handleInputChange, productFields, postProduct, category, handleSelectChange } = React.useContext(ProductContext);
     
     const handleAddProduct = () => {
-        if (areTextFieldsEmpty()) {
-            toastrService.callToastr('Please fill in all the text fields.');
+        postProduct();
+    };
+
+    const renderInputField = (inputField) => {
+        if (inputField.isArray) {
+            return productFields[inputField.propertyName].map((value, id) =>
+                renderTextField(inputField, id, value, newValue => {
+                    let copy = [...productFields[inputField.propertyName]];
+                    copy[id] = newValue;
+                    handleInputChange(inputField.propertyName, copy);
+                })
+            );
         } else {
-            postProduct();
+            return renderTextField(inputField, inputField.propertyName, productFields[inputField.propertyName], newValue =>
+                handleInputChange(inputField.propertyName, newValue)
+            );
         }
     };
 
     return (
         <div className='flex flex-col items-center'>
             <div className='m-2 text-lg text-[#7c7c7c]'>Add new product</div>
-            {inputFields.map((inputField) => (
+            <InputLabel id="category">Select Category</InputLabel>
+            <Select
+                style={{ width: '100%', margin: '5px 0' }}
+                value={category}
+                onChange={handleSelectChange}
+            >
+                {categoriesRender.map((option, index) => {
+                    return(
+                        <MenuItem key={index} value={option.path}>
+                            {option.path}
+                        </MenuItem>
+                    )
+                })}
+            </Select>
+            {inputFields.map(inputField => (
                 <div className='m-1' key={inputField.propertyName} style={{ position: 'relative', width: '100%' }}>
-                    {inputField.isArray ? productFields[inputField.propertyName].map((v, id) => <TextField key={id}
-                            size="small"
-                            style={{ width: '100%', margin: '5px 0' }}
-                            variant="standard"
-                            type={inputField.type}
-                            label={inputField.placeholder}
-                            value={productFields[inputField.propertyName][id]}
-                            onChange={(e) => {
-                                    var copy = [...productFields[inputField.propertyName]];
-                                    copy[id] = e.target.value;
-                                    handleInputChange(inputField.propertyName, copy);
-                                }
-                            }
-                        />) :
-                        <TextField
-                            size="small"
-                            style={{ width: '100%', margin: '5px 0' }}
-                            variant="standard"
-                            type={inputField.type}
-                            label={inputField.placeholder}
-                            value={productFields[inputField.propertyName]}
-                            onChange={(e) =>
-                                handleInputChange(inputField.propertyName, e.target.value)
-                            }
-                        />
+                    {renderInputField(inputField)}
+                    {inputField.isArray && 
+                        <Button onClick={() => {
+                            let copy = [...productFields[inputField.propertyName], ""];
+                            handleInputChange(inputField.propertyName, copy);
+                        }}>PLUS</Button>
                     }
-                    {inputField.isArray && <Button onClick={() => {
-                                    var copy = [...productFields[inputField.propertyName], ""]; // if only elements are string, TO DO
-                                    handleInputChange(inputField.propertyName, copy);
-                                }}>PLUS</Button> }
-                    {emptyFields.includes(inputField.propertyName) && (
-                        <div
-                            style={{
-                                position: 'absolute',
-                                bottom: -20,
-                                left: 0,
-                                color: 'yellow',
-                                fontSize: '12px',
-                            }}
-                        >
-                            Required field
-                        </div>
-                    )}
                 </div>
             ))}
             <Button
