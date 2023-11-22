@@ -1,5 +1,6 @@
 import React from 'react'
 import { ImageBehaviour, Images } from '../../../productsView/productsComponent/Images';
+import { translateText } from '../../../../services/translation.service';
 
 interface IProps{
     items: IProduct[];
@@ -14,7 +15,7 @@ const ProductItem = (props: IProps) => {
                     <div className='h-[200px] bg-[#f2f2f2] border-b-2 border-[#ccc] rounded-t-xl'>
                         <Images images={item.images} behaviour={ImageBehaviour.Single}/>
                     </div>
-                    <div className='px-2 py-1 text-xs'>{item.labelName}</div>
+                    <div className='px-2 py-1 text-xs'>{translateText(item.labelName)}</div>
                     <div className='px-2 py-1 text-xs'>
                         {item.price} UAH
                     </div>
