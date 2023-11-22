@@ -5,12 +5,11 @@ import { useParams } from 'react-router-dom';
 import Button from '@mui/material/Button/Button';
 
 const EditTab = ({inputFields}) => {
-    const {handleInputChange, productFields, updateProduct} = React.useContext(ProductContext);
+    const {handleInputChange, productFields } = React.useContext(ProductContext);
     const { id } = useParams<{ id: string | undefined }>();
 
     const handleSave = () => {
       if (id !== undefined) {
-        updateProduct(id, productFields);
       } else {
         console.error('Product ID is undefined.');
       }
