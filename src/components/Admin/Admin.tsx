@@ -1,7 +1,8 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
 import { UserContext } from '../../context/user-context';
-import SidePanel from './SidePanel';
+import SidePanel from './components/panels/SidePanel';
+import ControlPanel from './components/panels/ControlPanel';
 
 const Admin = () => {
     const {authorized, setAuthorized} = React.useContext(UserContext);
@@ -29,9 +30,10 @@ const Admin = () => {
 
     return (
         <div className='page-container'>
-            <div className='w-full flex justify-center items-center' style={{height: 'calc(100vh - 65px)'}}>
-                <div className='flex flex-col w-full items-center'>
-                    {!authorized ? <form onSubmit={handleAuthorization}>
+            <div className='w-full' style={{height: 'calc(100vh - 65px)'}}>
+                {!authorized ? 
+                <div className='flex items-center justify-center'>
+                    <form onSubmit={handleAuthorization}>
                         <TextField 
                             id="key" 
                             label="Enter key" 
@@ -41,11 +43,12 @@ const Admin = () => {
                             onChange={handleKeyChange}
                         />
                     </form> 
-                    : 
-                    <div>
-                        <SidePanel/>
-                    </div>}
                 </div>
+                : 
+                <div className='flex'>
+                    <SidePanel/>
+                    <ControlPanel/>
+                </div>}
             </div>
         </div>
     )
