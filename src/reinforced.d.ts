@@ -23,7 +23,6 @@ interface IRealPhoto extends IIdentifier
 interface IEditProduct {
 	count: number;
 	collection: string;
-	category: string;
 	labelName: string;
 	brand: string;
 	price: number;
