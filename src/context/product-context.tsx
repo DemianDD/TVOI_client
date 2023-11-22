@@ -63,6 +63,16 @@ export const ProductContext = createContext<ProductContextProps>({
     deleteProduct: () => {},
 });
 
+const categoryLabelMap = {
+    "bracelets": "bracelet_name|A",
+    "necklace": "necklace_name|A",
+    "earrings": "earring_name|A",
+    "rings": "ring_name|A",
+    "charms": "charm_name|A",
+    "watches": "watch_name|A",
+    "accessories": "accesorrie_name|A",
+};
+
 export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) => {
     const [products, setProducts] = React.useState<IProduct[]>([]);
     const [triggerReload, setTriggerReload] = React.useState(false);
@@ -73,7 +83,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
         count: 0,
         labelName: '',
         brand: '',
-        metal: '',
+        metal: 'silver925|A',
         description: 'basic_desc|A',
         packaging: 'basic_packaging|A',
         price: 0,
@@ -97,7 +107,14 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
     };
 
     const handleSelectChange = (event: SelectChangeEvent) => {
-        setCategory(event.target.value);
+        const selectedCategory = event.target.value;
+        setCategory(selectedCategory);
+
+        const newLabelName = categoryLabelMap[selectedCategory] || '';
+        setProductFields(prevFields => ({
+            ...prevFields,
+            labelName: newLabelName,
+        }))
     }
 
     const getProducts = async () => {
