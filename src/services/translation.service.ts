@@ -73,5 +73,9 @@ const translationService = new TranslationService();
 export default translationService;
 
 export function translateText(text: string): string {
+    if (typeof text !== 'string') {
+        console.error(`Expected a string for translation, but received: ${typeof text}`);
+        return '';
+    }
     return translationService.translate(text);
 }
