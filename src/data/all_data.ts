@@ -8,10 +8,10 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "pandora",
     category: "bracelets",
-    labelName:  translateText("bracelet_name|A") + " Pandora",
+    labelName:  "bracelet_name|A",
     brand: "Pandora",
     price: 1190,
-    salePrice: 790,
+    salePrice: 0,
     images: [
       {
         id:'ISAjSKkksd-sasasad566kjdkwwsd6s-44ss44',
@@ -34,20 +34,36 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id:'ISAjSKkksd-s6d6adsasdsgd6s-44ssgs44',
-        name: translateText("silver|A"),
+        name: "silver|A",
       },
     ],
-    metal: translateText("silver925|A"),
+    metal: "silver925|A",
     sizes: [
       {
         id:'ISAjSKkksd-s6d6sd6s-44wrfadsdasdwss44',
         value: '16',
       },
+      {
+        id:'ISAjSKkksd-s6d6sd6s-44wrfadsdasdwss44',
+        value: '17',
+      },
+      {
+        id:'ISAjSKkksd-s6d6sd6s-44wrfadsdasdwss44',
+        value: '18',
+      },
+      {
+        id:'ISAjSKkksd-s6d6sd6s-44wrfadsdasdwss44',
+        value: '19',
+      },
+      {
+        id:'ISAjSKkksd-s6d6sd6s-44wrfadsdasdwss44',
+        value: '20',
+      },
     ],
     description: "",
     popularity: 1,
     customPopularity: 1,
-    packaging: 'Оригінальна коробка бренду та фірмовий пакет TVOI',
+    packaging: 'basic_packaging|A',
     realPhotos: [
       {
         id:'ISAjSKkksd-sasasadfsfd566kjdkwwsasdd6s-44ss44',
@@ -68,7 +84,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "pandora",
       category: "bracelet",
-      labelName: translateText("bracelet_name|A") + " Pandora",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
       price: 2290,
       salePrice: 0,
@@ -94,10 +110,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id:'ISAjSKkksd-s6d6sgd6s-44ssgs44',
-          name: "срібний",
+          name: "silver|A",
         },
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id:'ISAjSKkksd-s6d6sd6s-44wrfwss44',
@@ -115,7 +131,7 @@ export const ALL_DATA: any[] = [
       description: "",
       popularity: 25,
       customPopularity: 25,
-      packaging: 'Оригінальна коробка бренду та фірмовий пакет TVOI',
+      packaging: 'basic_packaging|A',
       realPhotos: []
     },
     {
@@ -123,8 +139,8 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Tiffany classic",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + "Tiffany&Co",
-      brand: "Tiffany",
+      labelName: "bracelet_name|A",
+      brand: "Tiffany&Co",
       price: 1590,
       salePrice: 0,
       images: [
@@ -149,18 +165,18 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'JSjgd434jahj3223-23er2nm3n-dsfw2ed',
-          name: "голубий"
+          name: "bluetiffany|A"
         },
         {
           id: 'JSjgdjawfehj3223-232errnm3n-dsfefe2ed',
-          name: "червоний"
+          name: "red|A"
         },
         {
           id: 'JSjgddwfjahj3223-232efnm3n-defs2ed',
-          name: "рожевий"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'JSjgdjadhj3223-23efge2nm3n-dswr2ed',
@@ -190,7 +206,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Hermes Clic H",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Hermes",
+      labelName: "bracelet_name|A",
       brand: "Hermes",
       price: 5090,
       salePrice: 0,
@@ -212,11 +228,11 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id:'PAiwodjwk-defw322-211mndm',
-          name: "чорний"
+          name: "black|A"
         },
         {
           id:'PAiwodjwk-defw322-21asdf1mndm',
-          name: "рожевий"
+          name: "rosegold|A"
         },
       ],
       metal: "емальована сталь",
@@ -245,10 +261,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Sif Jakobs Erto",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Sif Jakobs",
+      labelName: "bracelet_name|A",
       brand: "Sif Jakobs",
       price: 7990,
-      salePrice: 4490,
+      salePrice: 5290,
       images: [
         {
           id: 'KLSkhdjwdsd-23kn2j3-23dcddfdds',
@@ -267,10 +283,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'KLSkhdjwdsd-23kn2j3-2wew3dcdds',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'KLSkhdjwdsd-23kn2j3-2sfq3dcdds',
@@ -291,7 +307,7 @@ export const ALL_DATA: any[] = [
       labelName: "Срібний браслет із позолотою",
       brand: "Xenox",
       price: 1090,
-      salePrice: 749,
+      salePrice: 0,
       images: [
         {
           id: 'LSKJkjdhjs-32j3sw2jbed0-232nedsyy',
@@ -306,10 +322,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'LSKJkjd11ehjs-32j32jbed0-232nedsi',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'LSKJkjdhjs-32jweew32jbed0-232nedssd',
@@ -327,10 +343,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Pandora Me Old",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Pandora Me",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
       price: 1195,
-      salePrice: 890,
+      salePrice: 0,
       images: [
         {
           id: 'LKSadhjd-323728sd-dnsmdbsjsg',
@@ -345,10 +361,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'LKSadhjd-323728sd-dnsfsmdbsja',
-          name: translateText("silver|A")
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'LKSadwdqhjd-3237dwq28sd-dnsqwdmdbsjm',
@@ -387,7 +403,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Esprit Classic",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Esprit",
+      labelName: "bracelet_name|A",
       brand: "Esprit",
       price: 1890,
       salePrice: 0,
@@ -405,10 +421,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'KSkhjdjshdkj-2u3weridsjj-sldjkd',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'KSkhjdwefjshdkj-2u3iwfdsjj-sldjkd',
@@ -426,7 +442,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Pandora",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Pandora",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
       price: 1290,
       salePrice: 0,
@@ -452,10 +468,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id:'OAsjdr3qjsk-23n2jn-dsknejqefw2sdsd',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id:'OAsjdjsk-23n2jn-dsknewfj2cvc',
@@ -473,7 +489,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Pandora",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Pandora",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
       price: 1290,
       salePrice: 0,
@@ -495,10 +511,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'IUwqj232dk920-skwndjw2-dwksndks',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'IUwqjdk920-skwndjw2-d2wwksndks',
@@ -528,7 +544,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Thomas Sabo",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Thomas Sabo",
+      labelName: "bracelet_name|A",
       brand: "Thomas Sabo",
       price: 1790,
       salePrice: 0,
@@ -546,7 +562,7 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Uqpwkds23qwew34-skwndjw2-dwksndks',
-          name: "білий"
+          name: "white|A"
         }
       ],
       metal: "прісноводна перлина",
@@ -567,7 +583,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Thomas Sabo",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Thomas Sabo",
+      labelName: "bracelet_name|A",
       brand: "Thomas Sabo",
       price: 1490,
       salePrice: 0,
@@ -585,7 +601,7 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'PODojdlsd-efwfwe234-werwee43',
-          name: "чорний"
+          name: "black|A"
         }
       ],
       metal: "обсидіан",
@@ -606,7 +622,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Pandora Me",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
       price: 1390,
       salePrice: 0,
@@ -628,10 +644,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Ouaydn885-23edsf-55d5sdw',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Ouaydn885-qweqweq234-qwdqdqww',
@@ -649,7 +665,7 @@ export const ALL_DATA: any[] = [
       description: "Срібний браслет відомого бренду виготовлений у сучасному модному дизайні із масивними ланками, додасть акценту до твого образу на кожен день",
       popularity: 7,
       customPopularity: 4,
-      packaging: "Оригінальна коробка бренду та фірмовий пакет TVOI",
+      packaging: "basic_packaging|A",
       realPhotos: []
     },
     {
@@ -657,10 +673,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Paul Hewitt",
+      labelName: "bracelet_name|A",
       brand: "Paul Hewitt",
       price: 1490,
-      salePrice: 1195,
+      salePrice: 0,
       images: [
         {
           id: 'Paidskdms848-erfwwe32-55d5sdw',
@@ -678,7 +694,7 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Paidskdmqwqws848-qweqweq234-55d5sdw',
-          name: "чорний"
+          name: "black|A"
         }
       ],
       metal: "натуральна шкіра",
@@ -699,10 +715,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Paul Hewitt",
+      labelName: "bracelet_name|A",
       brand: "Paul Hewitt",
       price: 1890,
-      salePrice: 1395,
+      salePrice: 0,
       images: [
         {
           id: 'Iowsqesnkk223-gdfgbvd-5tgreg5d5sdw',
@@ -717,7 +733,7 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Iowsqesnkk223-qwesdsqweq234-wdqda',
-          name: "червоний"
+          name: "red|A"
         }
       ],
       metal: "натуральна шкіра",
@@ -738,10 +754,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "pandora",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Pandora",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
-      price: 1090,
-      salePrice: 699,
+      price: 1390,
+      salePrice: 0,
       images: [
         {
           id: 'qwdqqdw-sdqw34-5tgreg5d5sdw',
@@ -760,20 +776,36 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'wqdqfdfsdds-sdqw34-5tgreg5d5sdw',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Psisjdskf-wedfefe-5tgreg5d5sdw',
+          value: "16"
+        },
+        {
+          id: 'Psisjdskf-wedfefe-5tgreg5d5sdw',
+          value: "17"
+        },
+        {
+          id: 'Psisjdskf-wedfefe-5tgreg5d5sdw',
+          value: "18"
+        },
+        {
+          id: 'Psisjdskf-wedfefe-5tgreg5d5sdw',
+          value: "19"
+        },
+        {
+          id: 'Psisjdskf-wedfefe-5tgreg5d5sdw',
           value: "20"
-        }
+        },
       ],
       description: "Незмінна класика у колекції прикрас кожної жінки. Срібний браслет, який буде гарно вписуватись під будь-який образ",
       popularity: 1,
       customPopularity: 1,
-      packaging: "Оригінальна коробка бренду та фірмовий пакет TVOI",
+      packaging: "basic_packaging|A",
       realPhotos: [
       ]
     },
@@ -782,7 +814,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "pandora",
       category: "bracelets",
-      labelName: translateText("bracelet_name|A") + " Pandora",
+      labelName: "bracelet_name|A",
       brand: "Pandora",
       price: 1790,
       salePrice: 0,
@@ -804,10 +836,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Rsysdns-wedf44efe-sdwqdqwew',
-          name: "золотий"
+          name: "gold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Rsysdns-wedf44efe-dwedqwdqwf',
@@ -821,7 +853,7 @@ export const ALL_DATA: any[] = [
       description: "Незмінна класика у колекції прикрас кожної жінки. Срібний браслет, який буде гарно вписуватись під будь-який образ",
       popularity: 1,
       customPopularity: 1,
-      packaging: "Оригінальна коробка бренду та фірмовий пакет TVOI",
+      packaging: "basic_packaging|A",
       realPhotos: []
     },
 
@@ -829,12 +861,12 @@ export const ALL_DATA: any[] = [
     {
       id: 'THOMSBNJAD-FDSFDSS-dwedqASwdqwf',
       count: 0,
-      collection: "tiffany",
+      collection: "Thomas Sabo",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Thomas Sabo",
+      labelName: "necklace_name|A",
       brand: "Thomas Sabo",
       price: 2290,
-      salePrice: 1595,
+      salePrice: 0,
       images: [
         {
           id: 'THOMSBNJAD-FDSadFDSS-dwedqplkASwdqwf',
@@ -857,10 +889,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'THOMSBNJAD-FDS213ewdFDSS-dwedqsadASwdqwf',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'THOMSBNJAD-dwsa-dwedqASwdqwf',
@@ -878,7 +910,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "tiffany",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Tiffany&Co",
+      labelName: "necklace_name|A",
       brand: "Tiffany&Co",
       price: 3490,
       salePrice: 0,
@@ -896,10 +928,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'PKJAKklds-A4eaadsassdase-dqasdasdadqwf',
-          name: "голубий"
+          name: "bluetiffany|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'PKsadasadsJAKklds-A4eaadsassdase-dqqwf',
@@ -917,7 +949,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "tiffany",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Tiffany&Co",
+      labelName: "necklace_name|A",
       brand: "Tiffany&Co",
       price: 4990,
       salePrice: 0,
@@ -943,10 +975,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'JDhfiADASDSAdssdsdsksd-wedSADDSADSAf44efe-dwedqwADSADSADSZXZdqwf',
-          name: "голубий"
+          name: "bluetiffany|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'JDhfiZXZXZXsksd-sdwZXZwww-dw213DSAedqwdqwf',
@@ -977,7 +1009,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "sif jakobs",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Sif Jakobs",
+      labelName: "necklace_name|A",
       brand: "Sif Jakobs",
       price: 4690,
       salePrice: 3990,
@@ -995,10 +1027,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'JDhfidssdsdsksd-wedf44efe-dwedqwdqwf',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'JDhfisksd-sdwwww-dwedqwdqwf',
@@ -1016,7 +1048,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "sif jakobs",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Sif Jakobs",
+      labelName: "necklace_name|A",
       brand: "Sif Jakobs",
       price: 4690,
       salePrice: 3990,
@@ -1041,10 +1073,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'OSUkdqwewnfkc-wedf44efe-433434fdsd',
-          name: "золотий"
+          name: "gold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'OSUkdnfkc-wedqwdewdwf22f44efe-433434fdsd',
@@ -1062,7 +1094,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "sif jakobs Pila Grande",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Sif Jakobs",
+      labelName: "necklace_name|A",
       brand: "Sif Jakobs",
       price: 5490,
       salePrice: 2990,
@@ -1076,10 +1108,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'asdsdd-wedfwww44efe-ldkdkj',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'PIdkdldj-wedfwww44efe-lweedkdkj',
@@ -1097,7 +1129,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "sif jakobs",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Sif Jakobs",
+      labelName: "necklace_name|A",
       brand: "Sif Jakobs",
       price: 7290,
       salePrice: 5590,
@@ -1123,14 +1155,14 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Powjdk-fghhswefdwsdv-ldkdkj',
-          name: "срібний"
+          name: "silver|A"
         },
         {
           id: 'Powdewdwwjdk-fghhssdv-ldkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           value: "45 см"
@@ -1150,7 +1182,7 @@ export const ALL_DATA: any[] = [
       labelName: "Срібний ланцюжок",
       brand: "Xenox",
       price: 1290,
-      salePrice: 895,
+      salePrice: 0,
       images: [
         {
           id: 'Msbdkhf333-sfwe3-ldkdkj',
@@ -1169,14 +1201,14 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Msbdkhf333-fghhssdv-ldkdwefdwefkj',
-          name: "срібний"
+          name: "silver|A"
         },
         {
           id: 'ewfdefde-fghhssdv-ldkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'swdqfdfff-fghhssdv-ldkdkj',
@@ -1197,7 +1229,7 @@ export const ALL_DATA: any[] = [
       labelName: "Срібний ланцюжок із позолотою",
       brand: "Xenox",
       price: 1790,
-      salePrice: 1195,
+      salePrice: 0,
       images: [
         {
           id: 'BZNJajad77wtd-fghhdwfssdv-ldkdkj',
@@ -1216,10 +1248,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'BZNJajad77wtd-qwdwd-ldkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'BZNJaja45434d77wtd-fghhssdv-ldkdkj',
@@ -1237,10 +1269,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Bulgari",
       category: "necklaces",
-      labelName: translateText("necklace_name|A") + " Bulgari",
+      labelName: "necklace_name|A",
       brand: "Bulgari",
       price: 4990,
-      salePrice: 1895,
+      salePrice: 0,
       images: [
         {
           id: 'BUKADndhdjf-qwdeqw-ldkdkj',
@@ -1263,10 +1295,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'BUKADndhdjf-777eedede-qwqwdfgvdws',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'BUKADndhdjf-qdeqdqgfwscdv-ldkdkj',
@@ -1319,7 +1351,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Spring`23",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 1090,
       salePrice: 0,
@@ -1341,18 +1373,18 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'EARDKSHS1DJss-sdsdfsf-ldkdkj',
-          name: "срібний"
+          name: "silver|A"
         },
         {
           id: 'EARDKSHSDJss-sds2e2dfsf-ldkdkj',
-          name: "золотий"
+          name: "gold|A"
         },
         {
           id: 'EARDKSHSwdwdDJss-sdsdfsf-ldkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'EARDKSHSDJss-dwdw-ldkdkj',
@@ -1370,7 +1402,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Spring`23",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 1090,
       salePrice: 0,
@@ -1388,10 +1420,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'TAHD2eqjdsa-sdsdfwdsf-ldkdkj',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'TAHDjdsa-sdsdfwdsf-ld2ewkdkj',
@@ -1409,10 +1441,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Esprit",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Esprit",
+      labelName: "earrings_name|A",
       brand: "Esprit",
       price: 1490,
-      salePrice: 1265,
+      salePrice: 0,
       images: [
         {
           id: 'Pkdjdlf-e2dsacs-ldkdkj',
@@ -1427,10 +1459,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Pkdjdlf-sdsdfwdsf-ldkqwqvwwdkj',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Pkdjdlf-ddsdsad2323-ldkdkj',
@@ -1448,7 +1480,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Pandora",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 1090,
       salePrice: 0,
@@ -1462,10 +1494,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'TPshdklfwq-dqdqw2eds-lddasdkdkj',
-          name: "золотий"
+          name: "gold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'TPshdklfwq-wdqsdsfw-lddasdkdkj',
@@ -1483,7 +1515,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Sif Jakobs",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Sif Jakobs",
+      labelName: "earrings_name|A",
       brand: "Sif Jakobs",
       price: 1990,
       salePrice: 0,
@@ -1505,10 +1537,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'OIsmsjdff322-dsaccawda-754tgdvsd',
-          name: "чорний"
+          name: "black|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'OIsmsjdff322-d8w7f8dshi-lddasdkdkj',
@@ -1526,7 +1558,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 790,
       salePrice: 0,
@@ -1544,10 +1576,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Oisjdsnuvc-ew54654545tef-lddasdkdkj',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Oisjdsnuvc-wfesdaqwd-lddasdkdkj',
@@ -1565,10 +1597,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 1250,
-      salePrice: 665,
+      salePrice: 0,
       images: [
         {
           id: 'Nbsmnasdkh-wdqwdqsqa-lddasdkdkj',
@@ -1583,10 +1615,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Nbsmnasdkh-fdwdqdqws-lddasdkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Nbsmnasdkh-wedscs-lddwdqwdasdkdkj',
@@ -1604,7 +1636,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 990,
       salePrice: 0,
@@ -1622,10 +1654,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'VZbahgdsdsd-qdwqsds-lddasdkdkj',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'wdqdqwds-wedscs-lddasdkdkj',
@@ -1643,10 +1675,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " s.Oliver",
+      labelName: "earrings_name|A",
       brand: "s.Oliver",
       price: 1995,
-      salePrice: 1465,
+      salePrice: 0,
       images: [
         {
           id: 'Ba23wedwjkadhks-wed2322scs-lddasdkdkj',
@@ -1661,7 +1693,7 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Bajkadhks-wed2322scs-w23dscasd',
-          name: "срібний"
+          name: "silver|A"
         }
       ],
       metal: "silver 925",
@@ -1682,10 +1714,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: "Срібні сережки-пусети",
+      labelName: "earrings_name|A",
       brand: "xenox",
       price: 1090,
-      salePrice: 665,
+      salePrice: 0,
       images: [
         {
           id: 'Zcsdwfs4w5wd-5ew4d5we4df5-lddasdkdkj',
@@ -1704,14 +1736,14 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Zcsdwfs4w5wd-wed2322scs-dwsdsad',
-          name: "срібний"
+          name: "silver|A"
         },
         {
           id: 'Zcsdwfs4w5wd-qdsads2eds-lddasdkdkj',
-          name: "червоний"
+          name: "red|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Zcsdwfs4w5wd-sdqsdvqwds-lddasdkdkj',
@@ -1729,10 +1761,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Sif Jakobs",
+      labelName: "earrings_name|A",
       brand: "Sif Jakobs",
       price: 3995,
-      salePrice: 3495,
+      salePrice: 0,
       images: [
         {
           id: 'Cvshdhasd22-dqdsdqs-lddasdkdkj',
@@ -1751,10 +1783,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Cvshdhasd22-Sdqds-lddasdkdkj',
-          name: "золотий"
+          name: "gold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Cvshdhasd22-wed2322scs-dqwdqqwdd',
@@ -1772,7 +1804,7 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "Pandora",
       category: "earrings",
-      labelName: translateText("earrings_name|A") + " Pandora",
+      labelName: "earrings_name|A",
       brand: "Pandora",
       price: 1190,
       salePrice: 0,
@@ -1795,10 +1827,10 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'Fsjakdhgud-Kjdwjhdw645-lddasdkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'Fsjakdhgud-das5d4a65-lddasdkdkj',
@@ -1808,7 +1840,7 @@ export const ALL_DATA: any[] = [
       description: "Універсальні срібні сережки для будь-якого образу. Ці кільця інкрустовано прозорим камінцем кубічного оксиду цирконію завдяки чому ви можете носити їх під будь-який образ, залежно від настрою",
       popularity: 1,
       customPopularity: 1,
-      packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+      packaging: "basic_packaging|A",
       realPhotos: []
     },
     {
@@ -1816,10 +1848,10 @@ export const ALL_DATA: any[] = [
       count: 0,
       collection: "gift",
       category: "earrings",
-      labelName: "Срібні сережки-пусети",
+      labelName: "earrings_name|A",
       brand: "xenox",
       price: 1090,
-      salePrice: 665,
+      salePrice: 0,
       images: [
         {
           id: 'XENOXSKJDJD-5ew4d5we4df5-lddasdkdkj',
@@ -1834,14 +1866,14 @@ export const ALL_DATA: any[] = [
       colors: [
         {
           id: 'XENOXSKJDJD-wed2322scs-dwsdsad',
-          name: "срібний"
+          name: "silver|A"
         },
         {
           id: 'XENOXSKJDJD-qdsads2eds-lddasdkdkj',
-          name: "рожеве золото"
+          name: "rosegold|A"
         }
       ],
-      metal: "срібло 925",
+      metal: "silver925|A",
       sizes: [
         {
           id: 'XENOXSKJDJD-sdqsdvqwds-lddasdkdkj',
@@ -1862,7 +1894,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Spring`23",
     category: "rings",
-    labelName: "Каблучка Pandora",
+    labelName: "ring_name|A",
     brand: "Pandora",
     price: 1290,
     salePrice: 0,
@@ -1880,10 +1912,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'PAndjsifjis-Roswrkflds-lddasdkdkj',
-        name: "рожеве золото"
+        name: "rosegold|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: '5&PDJksdsd-KLJdkhkjfscfsc-lddasdkdkj',
@@ -1906,7 +1938,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Spring`23",
     category: "rings",
-    labelName: "Каблучка Pandora 'Сонце і місяць' ",
+    labelName: "ring_name|A",
     brand: "Pandora",
     price: 1780,
     salePrice: 0,
@@ -1932,14 +1964,14 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'PAndjsifjis-LJDksaa-lddasdkdkj',
-        name: "срібний"
+        name: "silver|A"
       },
       {
         id: 'PAndjsifjis-ringtyasduad-HGOslsdkls',
-        name: "золотий"
+        name: "gold|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: '5&PDJksdsd-:asdasdsc-lddasdkdkj',
@@ -1962,7 +1994,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Spring`23",
     category: "rings",
-    labelName: "Каблучка Pandora",
+    labelName: "ring_name|A",
     brand: "Pandora",
     price: 1250,
     salePrice: 0,
@@ -1988,18 +2020,18 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: '5&8dsjksd78s-PIodsljsa54873-lddasdkdkj',
-        name: "срібний"
+        name: "silver|A"
       },
       {
         id: '5&8dsjksd78s-das5d4a65-asd5s6sda',
-        name: "золотий"
+        name: "gold|A"
       },
       {
         id: '5&8dsjksd78s-dasdre54-lddasdkdkj',
-        name: "рожеве золото"
+        name: "rosegold|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: '5&8dsjksd78s-das5d4a65-Jidaisdosas',
@@ -2021,7 +2053,7 @@ export const ALL_DATA: any[] = [
     description: "none",
     popularity: 8,
     customPopularity: 8,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2029,7 +2061,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Spring`23",
     category: "rings",
-    labelName: "Каблучка Pandora",
+    labelName: "ring_name|A",
     brand: "Pandora",
     price: 1090,
     salePrice: 0,
@@ -2051,10 +2083,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: '988e9rfkdshnfskjf-ljskdlsd-Klskjld',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'KJljsofdsd5s-ljskdlsd-lddasdkdkj',
@@ -2076,7 +2108,7 @@ export const ALL_DATA: any[] = [
     description: "none",
     popularity: 8,
     customPopularity: 8,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2084,7 +2116,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "s.Oliver",
     category: "rings",
-    labelName: "Каблучка s.Oliver",
+    labelName: "ring_name|A",
     brand: "s.Oliver",
     price: 1390,
     salePrice: 0,
@@ -2098,10 +2130,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'OPisjds7sd8s-KLajdkfsdsd-ldddasdadasdkdkj',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'OPisjds7sd8s-asdasdseds-lddasdkdkj',
@@ -2115,7 +2147,7 @@ export const ALL_DATA: any[] = [
     description: "none",
     popularity: 5,
     customPopularity: 5,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2123,7 +2155,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "s.Oliver",
     category: "rings",
-    labelName: "Каблучка s.Oliver",
+    labelName: "ring_name|A",
     brand: "s.Oliver",
     price: 1390,
     salePrice: 0,
@@ -2137,10 +2169,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'IOudsjkdls-KLajdkfsdsd-lddasdkdkj',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'Ppisdodikosd6sd5s-OIaodjksks-lddasdkdkj',
@@ -2158,7 +2190,7 @@ export const ALL_DATA: any[] = [
     description: "none",
     popularity: 6,
     customPopularity: 6,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2166,7 +2198,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "s.Oliver",
     category: "rings",
-    labelName: "Каблучка s.Oliver",
+    labelName: "ring_name|A",
     brand: "s.Oliver",
     price: 890,
     salePrice: 0,
@@ -2180,10 +2212,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'Lkjskjdks78sd-KLajdkfsdsd-KLdjssdks4d545sd',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'Lkjskjdks78sd-656adKHJdsd-lddasdkdkj',
@@ -2201,7 +2233,7 @@ export const ALL_DATA: any[] = [
     description: "none",
     popularity: 7,
     customPopularity: 7,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2209,10 +2241,10 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Xenox",
     category: "rings",
-    labelName: "Каблучка із позолотою",
+    labelName: "ring_name|A",
     brand: "Xenox",
     price: 990,
-    salePrice: 795,
+    salePrice: 0,
     images: [
       {
         id: 'PIjsdkjksds55s5s-KLajdkfsdsd-nbxvcvx5dd',
@@ -2227,10 +2259,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'PIjsdkjksds55s5s-KLajdkfsdsd-asd65s6a',
-        name: "рожеве золото"
+        name: "rosegold|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'PIjsdkjksds55s5s-KLajdkfsdsd-j4hg65g6d4s',
@@ -2248,7 +2280,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Gooix",
     category: "rings",
-    labelName: "Срібна каблучка",
+    labelName: "ring_name|A",
     brand: "Gooix",
     price: 1990,
     salePrice: 0,
@@ -2270,10 +2302,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'Jklsdkjksdjfa56sas-igklsvcd4d5-asd5a6s5s',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'Jklsdkjksdjfa56sas-asdkjlasdsad56s45-lddasdkdkj',
@@ -2295,7 +2327,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Pandora",
     category: "rings",
-    labelName: "Каблучка Pandora",
+    labelName: "ring_name|A",
     brand: "Pandora",
     price: 890,
     salePrice: 0,
@@ -2317,10 +2349,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'Opiodoadas5d45-Kldsjds4s5d-Ojdskdlsd4ds5',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'Opiodoadas5d45-Kldsjds4s5d-5d6sa56as',
@@ -2338,7 +2370,7 @@ export const ALL_DATA: any[] = [
     description: "string",
     popularity: 16,
     customPopularity: 16,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2346,7 +2378,7 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Pandora",
     category: "rings",
-    labelName: "Каблучка Pandora",
+    labelName: "ring_name|A",
     brand: "Pandora",
     price: 1090,
     salePrice: 0,
@@ -2368,10 +2400,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'Ldsjkkds4s5d-asdajskdad4a54d5-lddasdkdkj',
-        name: "срібний"
+        name: "silver|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'Ldsjkkds4s5d-Kldsjds4s5d-sdopdskodsa454d5',
@@ -2389,7 +2421,7 @@ export const ALL_DATA: any[] = [
     description: "string",
     popularity: 16,
     customPopularity: 16,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2397,10 +2429,10 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Sif Jakobs",
     category: "rings",
-    labelName: "Каблучка Sif Jakobs",
+    labelName: "ring_name|A",
     brand: "Sif Jakobs",
     price: 4770,
-    salePrice: 2295,
+    salePrice: 0,
     images: [
       {
         id: 'Kldsks4-Kldsjdseee4s5d-lddasdkdkj',
@@ -2419,10 +2451,10 @@ export const ALL_DATA: any[] = [
     colors: [
       {
         id: 'Kldsks4-qeqwdsad656d-lddasdkdkj',
-        name: "рожеве золото"
+        name: "rosegold|A"
       }
     ],
-    metal: "срібло 925",
+    metal: "silver925|A",
     sizes: [
       {
         id: 'Kldqwdssks4-Kldsjds4s5d-lddasdkdkj',
@@ -2432,7 +2464,7 @@ export const ALL_DATA: any[] = [
     description: "string",
     popularity: 4,
     customPopularity: 2,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2440,10 +2472,10 @@ export const ALL_DATA: any[] = [
     count: 0,
     collection: "Esprit",
     category: "rings",
-    labelName: "Каблучка Esprit",
+    labelName: "ring_name|A",
     brand: "Esprit",
     price: 1990,
-    salePrice: 1375,
+    salePrice: 0,
     images: [
       {
         id: 'Uasidjsk-asdasda-kjakhsdede',
@@ -2458,14 +2490,14 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Uasidjsk-3948dsdksd-kjakasdahsdede',
-        "name": "срібний"
+        "name": "silver|A"
       },
       {
         id: 'Uasidjsk-asdas-kjakhsdede',
-        "name": "золотий"
+        "name": "gold|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'Uasidjsk-3948dsdksd-asdadws',
@@ -2479,7 +2511,7 @@ export const ALL_DATA: any[] = [
     "description": "string",
     "popularity": 6,
     "customPopularity": 2,
-    packaging: "Оригінальна коробка бренду та фірмовий пакет Tvoi",
+    packaging: "basic_packaging|A",
     realPhotos: []
   },
   {
@@ -2487,8 +2519,8 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "gift",
     "category": "rings",
-    "labelName": "Каблучка із султанітом",
-    "brand": "Tvoi",
+    "labelName": "ring_name|A",
+    "brand": "TVOI",
     "price": 2570,
     "salePrice": 0,
     "images": [
@@ -2509,10 +2541,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Posudksns-3948dsdksd-asdsaaw',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'Posudksns-3948dsdksd-33rdsads',
@@ -2534,10 +2566,10 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "gift",
     "category": "rings",
-    "labelName": "Каблучка Pandora",
+    "labelName": "ring_name|A",
     "brand": "Pandora",
     "price": 1190,
-    "salePrice": 695,
+    "salePrice": 0,
     "images": [
       {
         id: 'Opskaslsd-asdads-asdsaaw',
@@ -2556,10 +2588,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Opskaslsd-mdnkchds-wdq344fas',
-        "name": "рожеве золото"
+        "name": "rosegold|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'Opskaslsd-qewqweqwd-asdsaaw',
@@ -2577,7 +2609,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "gift",
     "category": "rings",
-    "labelName": "Каблучка Pandora",
+    "labelName": "ring_name|A",
     "brand": "Pandora",
     "price": 1390,
     "salePrice": 0,
@@ -2599,10 +2631,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Mkjdiasds-qwdre55-asdsff',
-        "name": "рожеве золото"
+        "name": "rosegold|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'Mkjdiasds-Sdio8osd8sdd-asdsasdsaff',
@@ -2624,7 +2656,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "gift",
     "category": "rings",
-    "labelName": "Каблучка Pandora",
+    "labelName": "ring_name|A",
     "brand": "Pandora",
     "price": 1390,
     "salePrice": 0,
@@ -2646,10 +2678,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Mkjdiasds-sdasaw4355-asdsff',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'Mkjdiasds-LKDHkjsd-asdsff',
@@ -2671,7 +2703,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "gift",
     "category": "rings",
-    "labelName": "Каблучка Pandora",
+    "labelName": "ring_name|A",
     "brand": "Pandora",
     "price": 1190,
     "salePrice": 0,
@@ -2693,10 +2725,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Ojsdjdkakdsf432-asjkcxvs-sdadsad',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'asdscaw444-asjkcxvs-asdsff',
@@ -2714,10 +2746,10 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "gift",
     "category": "rings",
-    "labelName": "Каблучка із позолотою",
+    "labelName": "ring_name|A",
     "brand": "Xenox",
     "price": 1055,
-    "salePrice": 845,
+    "salePrice": 0,
     "images": [
       {
         id: 'BNsdjos8862-Kkjdskds66-asdsff',
@@ -2732,10 +2764,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'BNsdjos8862-adasasasa-asdsff',
-        "name": "рожеве золото"
+        "name": "rosegold|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'BNsdjos8862-Kkjdskds66-543werdassa',
@@ -2761,7 +2793,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Sif Jakobs",
     "category": "rings",
-    "labelName": "Каблучка Sif Jakobs",
+    "labelName": "ring_name|A",
     "brand": "Sif Jakobs",
     "price": 6490,
     "salePrice": 5090,
@@ -2783,10 +2815,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Popaskdnckzss5434-Kkjdskds66-LPosjksdsd',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
-    "metal": "срібло 925",
+    "metal": "silver|A",
     "sizes": [
       {
         id: 'Popaskdnckzss5434-dfadasdfgs-LPosjksdsd',
@@ -2807,7 +2839,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Philipp Plein",
     "category": "watches",
-    "labelName": "Годинник Philipp Plein $keleton Sport Master",
+    "labelName":  "watch_name|A",
     "brand": "Carl von Zeyten",
     "price": 29990,
     "salePrice": 0,
@@ -2829,10 +2861,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'PHIlsdajfkds-ZTNdadsfsalsldlsd-ETmdbjs5564',
-        "name": "чорний"
+        "name": "black|A"
       }
     ],
-    "metal": "загартована сталь",
+    "metal": "steel|A",
     "sizes": [
       {
         id: 'PHIlsdajfkds-Ldhjsjl-ETmdbjs5564',
@@ -2868,7 +2900,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Carl von Zeyten",
     "category": "watches",
-    "labelName": "Годинник Carl von Zeyten",
+    "labelName": "watch_name|A",
     "brand": "Carl von Zeyten",
     "price": 12200,
     "salePrice": 9990,
@@ -2890,10 +2922,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'CRLOSVNSLSM-ZTNdadsfsalsldlsd-ETmdbjs5564',
-        "name": "синій"
+        "name": "darkblue|A"
       }
     ],
-    "metal": "загартована сталь",
+    "metal": "steel|A",
     "sizes": [
       {
         id: 'CRLOSVNSLSM-Ldhjsjl-ETmdbjs5564',
@@ -2917,7 +2949,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Versus Versace",
     "category": "watches",
-    "labelName": "Годинник Versace",
+    "labelName": "watch_name|A",
     "brand": "Versace",
     "price": 7777,
     "salePrice": 0,
@@ -2943,14 +2975,14 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'PIOkslnkdfnmv-Kdjkalsklsd-LPosjksdsd',
-        "name": "чорний"
+        "name": "black|A"
       },
       {
         id: 'LJKKHklsnkfsd-v-Kdjkalsklsd-LPosjksdsd',
-        "name": "червоний"
+        "name": "red|A"
       }
     ],
-    "metal": "загартована сталь",
+    "metal": "steel|A",
     "sizes": [
       {
         id: 'MNBNMczsd-KHksf4sd-LPosjksdsd',
@@ -2978,7 +3010,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Lancaster Italy",
     "category": "watches",
-    "labelName": "Італійський годинник Lancaster",
+    "labelName": "watch_name|A",
     "brand": "Lancaster",
     "price": 129990,
     "salePrice": 0,
@@ -3000,10 +3032,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'OIoasdsds4d5-Kdjkalsklsd-LPosjksdsd',
-        "name": "золотий"
+        "name": "gold|A"
       }
     ],
-    "metal": "загартована сталь",
+    "metal": "steel|A",
     "sizes": [
       {
         id: 'OIoasdsds4d5-dsadsdawa-LPosjksdsd',
@@ -3021,7 +3053,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Versace Woman",
       "category": "watches",
-      "labelName": "Жіночий годинник Versace",
+      "labelName": "watch_name|A",
       "brand": "Versace",
       "price": 52800,
       "salePrice": 45900,
@@ -3043,10 +3075,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'Kldskldds4d5ss-sdasdawes-LPosjksdsd',
-          "name": "золотий"
+          "name": "gold|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'Kldskldds4d5ss-dfadasdfgs-PPIsdjldsss',
@@ -3064,7 +3096,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Versace Woman",
       "category": "watches",
-      "labelName": "Жіночий годинник Versace",
+      "labelName": "watch_name|A",
       "brand": "Versace",
       "price": 62900,
       "salePrice": 51900,
@@ -3090,10 +3122,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'Kldsklddsadsaas4d5ss-dfadasdfgs-LPosjksdsd',
-          "name": "золотий"
+          "name": "gold|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'asdasdsaas-dfadasdfgs-LPosjksdsd',
@@ -3111,7 +3143,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Roamer of Switzerland",
       "category": "watches",
-      "labelName": "Швейцарський годинник Roamer",
+      "labelName": "watch_name|A",
       "brand": "Roamer",
       "price": 11990,
       "salePrice": 0,
@@ -3138,10 +3170,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'Kldskldds4d5ss-Pospdpssd8s-LPosjksdsd',
-          "name": "срібний"
+          "name": "silver|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'Jjuosdsdsds-Kdksjkdss-LPosjksdsd',
@@ -3159,7 +3191,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Roamer of Switzerland",
       "category": "watches",
-      "labelName": "Швейцарський годинник Roamer",
+      "labelName": "watch_name|A",
       "brand": "Roamer",
       "price": 11990,
       "salePrice": 0,
@@ -3181,10 +3213,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'JOSdosds8d48sd-Kdksjkdss-LPosjksdsd',
-          "name": "срібний"
+          "name": "silver|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'Pkdlsjdksds45sd-LJKLsds87ds8-LPosjksdsd',
@@ -3202,7 +3234,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Roamer of Switzerland",
       "category": "watches",
-      "labelName": "Швейцарський годинник Roamer",
+      "labelName": "watch_name|A",
       "brand": "Roamer",
       "price": 14990,
       "salePrice": 10990,
@@ -3216,10 +3248,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'Pjkdslsasdasd4s5d-Kdksjkdss-LPosjksdsd',
-          "name": "золотий"
+          "name": "gold|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'Pjkdslsd4s5d-Kdksjsadakdss-LPosjksdsd',
@@ -3237,7 +3269,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Roamer of Switzerland",
       "category": "watches",
-      "labelName": "Швейцарський годинник Roamer",
+      "labelName": "watch_name|A",
       "brand": "Roamer",
       "price": 11990,
       "salePrice": 8990,
@@ -3255,7 +3287,7 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'lksodkpssd-Kdasdasdsadsassjkdss-LPosjksdsd',
-          "name": "золотий"
+          "name": "gold|A"
         }
       ],
       "metal": "натуральна шкіра та загартована сталь",
@@ -3276,7 +3308,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Roamer of Switzerland",
       "category": "watches",
-      "labelName": "Швейцарський годинник Roamer",
+      "labelName": "watch_name|A",
       "brand": "Roamer",
       "price": 12990,
       "salePrice": 10990,
@@ -3290,10 +3322,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'PJksjddssssd-asdasds8-LPosjksdsd',
-          "name": "срібний"
+          "name": "silver|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'PJksjddssasdsssd-Kdasdassjkdss-LPosjksdsd',
@@ -3311,7 +3343,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Michael Kors",
       "category": "watches",
-      "labelName": "Годинник Michael Kors",
+      "labelName": "watch_name|A",
       "brand": "Michael Kors Classic",
       "price": 12990,
       "salePrice": 7990,
@@ -3329,7 +3361,7 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'KPspdsd-Jklsd4s5sd5-LPosasdasdjksdsd',
-          "name": "золотий"
+          "name": "gold|A"
         }
       ],
       "metal": "сталь",
@@ -3350,7 +3382,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Versace",
       "category": "watches",
-      "labelName": "Годинник Versace",
+      "labelName": "watch_name|A",
       "brand": "Versace",
       "price": 45990,
       "salePrice": 39990,
@@ -3364,10 +3396,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'Lsdopsdssasa-787sdjkHasdasJJdskds-adskdhas55s',
-          "name": "срібний"
+          "name": "silver|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'Lsdopsdadssssasa-787sdjkHJJdskds-adskdhas55s',
@@ -3385,7 +3417,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Guess",
       "category": "watches",
-      "labelName": "Годинник Guess",
+      "labelName": "watch_name|A",
       "brand": "Guess",
       "price": 6390,
       "salePrice": 4880,
@@ -3411,14 +3443,14 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'Ksdsjdopsdss-dskhjaskdss-adskdhas55s',
-          "name": "золотий"
+          "name": "gold|A"
         },
         {
           id: 'Ksdsjdopsdss-787sdskds-adskdhaasdasdss55s',
-          "name": "рожеве золото"
+          "name": "rosegold|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'Ksdsjdopsdss-KJsdihdisdds-adskdhas55s',
@@ -3436,7 +3468,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "s.Oliver",
       "category": "watches",
-      "labelName": "Годинник S.Oliver",
+      "labelName": "watch_name|A",
       "brand": "s.Oliver",
       "price": 4430,
       "salePrice": 3190,
@@ -3458,10 +3490,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'KJKdsjisdps54d5s-48asd4-asddxcZcx',
-          "name": "рожеве золото"
+          "name": "rosegold|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'KJKdsjisdpsasdsa54d5s-48asd4-aksjdis',
@@ -3479,7 +3511,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Lancaster Italy",
       "category": "watches",
-      "labelName": "Італійський годинник Lancaster",
+      "labelName": "watch_name|A",
       "brand": "Lancaster Italy",
       "price": 69995,
       "salePrice": 52665,
@@ -3501,7 +3533,7 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'NJsdhsd45sdds-48asdsaasasdd4-aksasdjdis',
-          "name": "білий"
+          "name": "white|A"
         }
       ],
       "metal": "кераміка",
@@ -3522,7 +3554,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Philipp Plein Skull Watch",
       "category": "watches",
-      "labelName": "Годинник Philipp Plein Silver",
+      "labelName": "watch_name|A",
       "brand": "Philipp Plein",
       "price": 17777,
       "salePrice": 0,
@@ -3544,10 +3576,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'KKHKsd5ssd-NHJHs54asdasdsdd5s-aksasdjdis',
-          "name": "срібний"
+          "name": "silver|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'KKHKsd5ssd-NHJHsadasdsa54d5s-aksasdjdis',
@@ -3566,7 +3598,7 @@ export const ALL_DATA: any[] = [
       "count": 0,
       "collection": "Philipp Plein Skull Watch",
       "category": "watches",
-      "labelName": "Годинник Philipp Plein White Gold",
+      "labelName": "watch_name|A",
       "brand": "Philipp Plein",
       "price": 17777,
       "salePrice": 0,
@@ -3592,10 +3624,10 @@ export const ALL_DATA: any[] = [
       "colors": [
         {
           id: 'IOOsakhdas-Nsdasd5s-aksasdjdis',
-          "name": "білий"
+          "name": "white|A"
         }
       ],
-      "metal": "загартована сталь",
+      "metal": "steel|A",
       "sizes": [
         {
           id: 'IOOsakhdas-Nsdasd5s-aksasasdasddjdis',
@@ -3616,7 +3648,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "marvel",
     "category": "charms",
-    "labelName": "Намистина Pandora",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 690,
     "salePrice": 350,
@@ -3638,7 +3670,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'LJklsd-NKsd55ds-ajkadssdjds',
-        "name": "золотий"
+        "name": "gold|A"
       }
     ],
     "metal": "silver 925",
@@ -3659,7 +3691,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "star wars",
     "category": "charms",
-    "labelName": "Намистина Pandora",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 350,
@@ -3681,7 +3713,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'JKIHIdaskpss-PJOsdsds-ajkadssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3702,7 +3734,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "star wars",
     "category": "charms",
-    "labelName": "Намистина Pandora",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 535,
     "salePrice": 350,
@@ -3720,7 +3752,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'Ksdsd-PJOsdsds-ajkadasdssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3741,7 +3773,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Harry Potter",
     "category": "charms",
-    "labelName": "Намистина Pandora Harry Potter Hufflepuff",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 420,
@@ -3767,7 +3799,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'HARoskKLsdslsd-adssasaads-ajkadasdssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3788,7 +3820,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Harry Potter",
     "category": "charms",
-    "labelName": "Намистина Pandora Harry Potter Slytherin Dangle",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 420,
@@ -3814,7 +3846,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'HARoskKLsdslsd-IUI7sd89dsd-ajkadasdssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3835,7 +3867,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Harry Potter",
     "category": "charms",
-    "labelName": "Намистина Pandora Harry Potter Gryffindor Dangle",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 420,
@@ -3861,7 +3893,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'HARoskKLsdslsd-PIjfdflsdvv-ajkadasdssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3882,7 +3914,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Pandora",
     "category": "charms",
-    "labelName": "Кліпса Pandora",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 350,
@@ -3900,7 +3932,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'CLISadsdds-PIjfdflsdvv-ajkadasdssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3921,7 +3953,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Pandora",
     "category": "charms",
-    "labelName": "Кліпса Pandora",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 350,
@@ -3943,7 +3975,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'CLISadsdds-LJOiojskds-ajkadasdssdjds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -3964,7 +3996,7 @@ export const ALL_DATA: any[] = [
     "count": 0,
     "collection": "Pandora",
     "category": "charms",
-    "labelName": "Кліпса Pandora",
+    "labelName": "charm_name|A",
     "brand": "Pandora",
     "price": 590,
     "salePrice": 350,
@@ -3986,7 +4018,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'CLISadsdds-LJOiojskds-POUHidsds',
-        "name": "срібний"
+        "name": "silver|A"
       }
     ],
     "metal": "silver 925",
@@ -4012,7 +4044,7 @@ export const ALL_DATA: any[] = [
     "labelName": "Жіноча сумочка Versace",
     "brand": "Versace",
     "price": 2495,
-    "salePrice": 1480,
+    "salePrice": 0,
     "images": [
       {
         id: 'VERSJKJA-687sdfkjksdf-UHJdklsdnksdc',
@@ -4031,10 +4063,10 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'VERSJKJA-PIjfdflsdvv-ajkadasdssdjds',
-        "name": "чорний"
+        "name": "black|A"
       }
     ],
-    "metal": "еко-шкіра",
+    "metal": "eko|A",
     "sizes": [
       {
         id: 'VERSJKJA-KOJdodkfpkdpfdf-Lkjksldsd',
@@ -4044,7 +4076,7 @@ export const ALL_DATA: any[] = [
     "description": "",
     "popularity": 1,
     "customPopularity": 1,
-    "packaging": "Пильник для сумки",
+    "packaging": "",
     realPhotos: []
   },
 
@@ -4077,7 +4109,7 @@ export const ALL_DATA: any[] = [
     "colors": [
       {
         id: 'CARIEJKDJKS-PIjfdflsdvv-ajkadasdssdjds',
-        "name": "золотий"
+        "name": "gold|A"
       }
     ],
     "metal": "сплав металів",
