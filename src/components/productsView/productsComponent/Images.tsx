@@ -3,8 +3,8 @@ import Spinner from '../../loading/Spinner';
 import {Image} from "@nextui-org/react";
 
 interface IProps {
-  images: string[];
-  behaviour: ImageBehaviour;
+    images: (string | { url: string })[];
+    behaviour: ImageBehaviour;
 }
 
 export enum ImageBehaviour {
@@ -14,12 +14,14 @@ export enum ImageBehaviour {
 }
 
 export const Images = (props: IProps) => {
-    const [images, setImages] = React.useState(props.images);
+    const [images, setImages] = React.useState<string[]>([]);
 
     React.useEffect(() => {
-        console.log(props.images)
         if (props.images) {
-            setImages([...props.images]);
+            const processedImages = props.images.map(image => 
+                typeof image === 'string' ? image : image.url
+            );
+            setImages(processedImages);
         }
     }, [props.images]);
 
@@ -63,7 +65,7 @@ const SingleImage = (image: string) => {
     };
     return (
         <div className='w-full'>
-            {isLoading && <div className='h-full flex justify-center items-center'><Spinner/></div>}
+            {isLoading && <div className='h-[200px] flex justify-center items-center'><Spinner/></div>}
             <img 
                 src={image}
                 className='w-full'

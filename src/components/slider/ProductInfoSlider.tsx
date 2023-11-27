@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export interface IProps {
-  images: string[];
+  images: (string | { url: string })[];
 }
 
 const ProductInfoSlider = (props: IProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const getImageUrl = (image: string | { url: string }) => {
+    return typeof image === 'string' ? image : image.url;
+  };
 
   const nextSlide = () => {
     const newIndex = (currentIndex + 1) % props.images.length;
@@ -26,11 +30,12 @@ const ProductInfoSlider = (props: IProps) => {
             key={index}
             className={`slider-slide ${currentIndex === index ? "active" : ""}`}
             style={{
-              transform: `translateX(-${100 * currentIndex}%)`
+              transform: `translateX(-${100 * currentIndex}%)`,
+              width: '350px !important'
             }}
           >
             <LazyLoadImage
-              src={image}
+              src={getImageUrl(image)}
               alt={`Image ${index + 1}`}
               className="slider-image"
             />
