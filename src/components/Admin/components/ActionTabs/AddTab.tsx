@@ -13,7 +13,6 @@ function renderTextField(inputField, id, value, onChange) {
             key={id}
             size="small"
             style={{ width: '100%', margin: '5px 0' }}
-            variant="standard"
             type={inputField.type}
             label={inputField.placeholder}
             value={value}
@@ -50,6 +49,7 @@ const AddTab = ({inputFields}) => {
             <div className='m-2 text-lg text-[#7c7c7c]'>Add new product</div>
             <InputLabel id="category">Select Category</InputLabel>
             <Select
+                size="small"
                 style={{ width: '100%', margin: '5px 0' }}
                 value={category}
                 onChange={handleSelectChange}
