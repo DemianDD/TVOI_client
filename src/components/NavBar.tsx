@@ -97,8 +97,8 @@ export const NavBar = () => {
           </form>}
 
         <div className="logoPos">
-          <div className="logoStyle gilroy" onClick ={() => {navigate(getRoute(``))}}>
-            black friday
+          <div className="logoStyle" onClick ={() => {navigate(getRoute(``))}}>
+            TVOI
           </div>
         </div>
         
