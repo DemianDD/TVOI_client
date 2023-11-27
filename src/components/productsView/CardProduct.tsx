@@ -5,7 +5,7 @@ import { ImageBehaviour, Images } from './productsComponent/Images';
 import { Price } from './productsComponent/Price';
 import useWindowSize from '../../hooks/UseWindowSize';
 import { forwardRef } from 'react';
-import { ColorSelector } from './productsComponent/ColorSelector';
+import { translateText } from '../../services/translation.service';
 
 interface IProps {
   products: IProduct[];
@@ -34,7 +34,7 @@ const CardProducts = (props: IProps, ref: React.Ref<HTMLDivElement>) => {
             </div>
             <div className='productLabel' key={index} onClick={() => navigate(getRoute(`product/${p.id}`))}>
               <Price product={p} font='xl' currTypeBack="грн."/>
-              {isMobile ? <></> : <div className='productLabelOverflow'>{p.labelName}</div>}
+              {isMobile ? <></> : <div className='productLabelOverflow'>{translateText(p.labelName)} {p.brand}</div>}
             </div>
           </div>
         )

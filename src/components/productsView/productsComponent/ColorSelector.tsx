@@ -3,7 +3,7 @@ import "../../../styles/selector.css";
 import { translateText } from "../../../services/translation.service";
 
 interface IProps {
-  colors: string[];
+  colors: (string | { name: string })[];
   onColorSelect: (color: string) => void;
 }
 
@@ -25,7 +25,28 @@ export const ColorSelector = (props: IProps) => {
     props.onColorSelect(color);
   };
 
-  const renderColorOption = (color: string, imageUrl: string) => {
+  const getColorString = (color: string | { name: string }) => {
+    return typeof color === 'string' ? color : color.name;
+  };
+
+  const getImageUrl = (color: string) => {
+    switch (color) {
+      case "silver|A": return SILVER;
+      case "gold|A": return GOLD;
+      case "rosegold|A": return ROSEGOLD;
+      case "white|A": return WHITE;
+      case "black|A": return BLACK;
+      case "bluetiffany|A": return BLUETIFFANY;
+      case "red|A": return RED;
+      case "military|A": return MILITARY;
+      case "rose|A": return ROSEGOLD;
+      case "darkblue|A": return DARKBLUE;
+      default: return "";
+    }
+  };
+
+  const renderColorOption = (color: string) => {
+    const imageUrl = getImageUrl(color);
     return (
       <div
         key={color}
@@ -33,37 +54,15 @@ export const ColorSelector = (props: IProps) => {
         onClick={() => handleColorSelect(color)}
       >
         <img src={imageUrl} alt={color} className="color-image m-1" />
-        <span>{color}</span>
+        <span>{translateText(color)}</span>
       </div>
     );
   };
 
   const renderColorOptions = () => {
-    return props.colors.map((color) => {
-      let imageUrl = "";
-      if (color === translateText("silver|A")) {
-        imageUrl = SILVER;
-      } else if (color === translateText("gold|A")) {
-        imageUrl = GOLD;
-      } else if (color === translateText("rosegold|A")) {
-        imageUrl = ROSEGOLD;
-      } else if (color === translateText("white|A")) {
-        imageUrl = WHITE;
-      } else if (color === translateText("black|A")) {
-        imageUrl = BLACK;
-      } else if (color === translateText("bluetiffany|A")) {
-        imageUrl = BLUETIFFANY;
-      } else if (color === translateText("red|A")) {
-        imageUrl = RED;
-      } else if (color === translateText("military|A")) {
-        imageUrl = MILITARY;
-      } else if (color === translateText("rose|A")) {
-        imageUrl = ROSEGOLD;
-      } else if (color === translateText("darkblue|A")) {
-        imageUrl = DARKBLUE;
-      }
-
-      return renderColorOption(color, imageUrl);
+    return props.colors.map(colorItem => {
+      const colorString = getColorString(colorItem); // Extracting string from color
+      return renderColorOption(colorString);
     });
   };
 

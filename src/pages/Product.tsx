@@ -158,7 +158,7 @@ const Product = () => {
         </Helmet>
         <div className="productInfoView">
           <div className="infoViewCard">
-            {!isMobile ? <div className="prLblName">{productItem.labelName}</div> : <></>}
+            {!isMobile ? <div className="prLblName">{translateText(productItem.labelName)} {productItem.brand}</div> : <></>}
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-x-5">
               <div className="bg-images relative">
                 {isMobile ? (
@@ -175,7 +175,7 @@ const Product = () => {
                 <div className="prColumnPos">
                 {isMobile ? 
                   <div className="flex items-center w-full py-2 gap-2 border-b border-[#f2f2f2] ">
-                    <div className="text-black text-start text-sm flex-1 p-2 bg-[#fff] rounded-xl">{productItem.labelName}</div>
+                    <div className="text-black text-start text-sm flex-1 p-2 bg-[#fff] rounded-xl">{translateText(productItem.labelName)} {productItem.brand}</div>
                     {isMobile? <div className="bg-blue-50 text-blue-500 text-sm p-2 rounded-xl text-center" onClick={onSizeInfo}>
                       {translationService.translate("choose size|A")}?
                     </div> : <></>} 

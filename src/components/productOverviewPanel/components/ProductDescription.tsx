@@ -1,5 +1,5 @@
 import React from "react";
-import translationService from "../../../services/translation.service";
+import translationService, { translateText } from "../../../services/translation.service";
 
 interface IProps {
     products: IProduct[];
@@ -17,7 +17,7 @@ export const ProductDescription = (props: IProps) => {
 
             <div>
                 <div className="text-base text-[#8c8c8c]">{translationService.translate("metal|A")}</div>
-                {p.metal}
+                {translateText(p.metal)}
             </div>
 
             <div>
@@ -27,11 +27,11 @@ export const ProductDescription = (props: IProps) => {
 
             {p.description.length > 10 ? <div >
                 <div className="text-base text-[#8c8c8c]">{translationService.translate("desc|A")}</div>
-                {p.description}
+                {translateText(p.description)}
             </div> : <></>}
             <div>
                 <div className="text-base text-[#8c8c8c]">{translationService.translate("package|A")}</div>
-                {p.packaging}
+                {translateText(p.packaging)}
             </div>
           </div>
         )
