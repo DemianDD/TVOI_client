@@ -62,9 +62,9 @@ const Home = () => {
           </div>
         )}
 
-        <div className="bg-[#111111] py-3 px-0 md:px-3">
+        <div className="bg-gradient-to-b from-white via-red-300 md:from-[#313131] md:via-white py-3 px-2 md:px-3">
           <div className="gilroy uppercase text-white text-base md:text-xl pb-2 pl-4">
-            <i className="bg-[#ff3a5e] px-2.5 rounded-xl">Знижки до -60%</i>
+            <i className="bg-[#111111] px-3.5 py-0.5 rounded-xl">Вибір покупців</i>
           </div>
           <CarouselGallery products={saleProducts} />
         </div>
