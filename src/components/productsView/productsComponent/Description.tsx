@@ -53,7 +53,7 @@ const Description = (props: IProps) => {
                   const Component = b.component;
                   return(
                       <div key={id} className={b.style}>
-                          <div className='text-xl text-bold text-blue-200 flex items-center'><img src={b.img} className='mr-1'/> {b.title}</div>
+                          <div className='text-xl text-bold text-[#5b5b5b] flex items-center'><img src={b.img} className='mr-1'/> {b.title}</div>
                           <Component products={productsDesc}/>
                       </div>
                   )
