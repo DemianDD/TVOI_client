@@ -9,15 +9,21 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 interface IProps {
-  photos: string[];
+  photos: (string | { url: string })[];
   isBorderRounded?: boolean;
 }
 
 function Slider(props: IProps) {
-  const [photos, setPhotos] = useState<string[]>(props.photos);
-  useEffect(() => {
-    setPhotos([...props.photos]);
-  }, [props.photos]);
+  const [photos, setPhotos] = React.useState<string[]>([]);
+
+  React.useEffect(() => {
+    if (props.photos) {
+      const processedImages = props.photos.map(image => 
+        typeof image === 'string' ? image : image.url
+      );
+      setPhotos(processedImages);
+    }
+}, [props.photos]);
 
   return (
     <Swiper
