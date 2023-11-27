@@ -171,8 +171,14 @@
     "options|A" : "Ваші опції",
     "bracelet_name|A" : "Браслет",
     "silver925|A" : "срібло 925",
+    "oneSize|A" : "єдиний розмір",
+    "steel|A" : "Сталь",
+    "eko|A" : "Еко шкіра",
     "necklace_name|A" : "Ланцюжок",
-    "earring_name|A" : "Сережки",
+    "earrings_name|A" : "Сережки",
+    "ring_name|A" : "Каблучка",
+    "watch_name|A" : "Годинник",
+    "charm_name|A" : "Намистина",
     "basic_desc|A" : "Базова прикраса, яка найкраще підійде на будь-який день",
     "basic_packaging|A" : "Коробочка для прикраси та фірмовий пакетик TVOI"
 }

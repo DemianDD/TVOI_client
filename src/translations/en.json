@@ -170,8 +170,14 @@
     "options|A" : "Your options",
     "bracelet_name|A" : "Bracelet",
     "silver925|A" : "silver 925",
+    "oneSize|A" : "one size",
+    "steel|A" : "Stainless steel",
+    "eko|A" : "Eko leather",
     "necklace_name|A" : "Necklace",
-    "earring_name|A" : "Earrings",
+    "earrings_name|A" : "Earrings",
+    "ring_name|A" : "Ring",
+    "watch_name|A" : "Watch",
+    "charm_name|A" : "Charm",
     "basic_desc|A" : "A basic piece of jewelry that will suit any day",
     "basic_packaging|A" : "Jewelry box and TVOI branded bag"
 }
