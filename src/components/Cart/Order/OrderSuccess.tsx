@@ -47,7 +47,7 @@ const OrderSuccess = () => {
                     <div className="font-bold">{translateText('thank you|A')}, {userData.name}!</div>
                         <div className="text-xs my-3 lg:text-base flex flex-col items-center">
                             <div>{translateText('package getting ready|A')}...</div>
-                            <div><img src="animals/cat_box.png" className="lg:w-[200px] w-[150px] py-3"/></div>
+                            <div><img src="animalsChris/cat_box.png" className="lg:w-[200px] w-[150px] py-3"/></div>
                             <div className="text-center">{translateText('order info|A')}</div>
                         </div>
                     <button className="flex items-center justify-center border border-[#6a6a6a] rounded-xl lg:w-1/3 w-full text-xs text-[#6a6a6a]" onClick={billWindowOpen}>

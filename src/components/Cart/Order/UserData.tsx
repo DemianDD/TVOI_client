@@ -115,7 +115,7 @@ const UserData = () => {
       </FadeIn>
       {!isMobile && (
         <div className='ad-pos'>
-          <Ad title='Хе-хе, а що тут у нас... Лиш дай знати цим лапкам, куди слід відносити посилки!' image='animals/cats_feet.png'/>
+          <Ad title='Хе-хе, а що тут у нас... Лиш дай знати цим лапкам, куди слід відносити посилки!' image='animalsChris/cats_feet.png'/>
         </div>
       )}
     </div>

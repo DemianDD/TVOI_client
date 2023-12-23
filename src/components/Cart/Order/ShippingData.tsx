@@ -214,7 +214,7 @@ const ShippingData = () => {
       </FadeIn>
       {!isMobile && (
         <div className='ad-pos'>
-          <Ad title='Ііі... останній крок і твоє замовлення уже відправляється до тебе. Не зупиняйся!' image='animals/cat_4.png'/>
+          <Ad title='Ііі... останній крок і твоє замовлення уже відправляється до тебе. Не зупиняйся!' image='animalsChris/cat_4.png'/>
         </div>
       )}
     </div>
