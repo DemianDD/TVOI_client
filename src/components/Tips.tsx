@@ -5,28 +5,28 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 const tips = [
     {
         id: 1,
-        title: 'Мрррр... додай понад 3 товари у корзину та отримай додаткові 5% знижки.',
-        image: 'animals/cat.png'
+        title: 'Хохохо... додай понад 3 товари у корзину та отримай додаткові 5% знижки.',
+        image: 'animalsChris/cat.png'
     }, {
         id: 3,
         title: 'Замовляй товар зараз - оплачуй на пошті. Безпека в інтернеті перш за все!',
-        image: 'animals/bear.png'
+        image: 'animalsChris/bear.png'
     }, {
         id: 4,
         title: 'Не забудь обрати розмір та колір, щоб ми знали, що тобі пакувати!',
-        image: 'animals/pig.png'
+        image: 'animalsChris/pig.png'
     }, {
         id: 5,
         title: 'Вжжжуууххх. Вперед за шопінгооом. Покажемо йому, де раки зимують!',
-        image: 'animals/cat_tea.png'
+        image: 'animalsChris/cat_tea.png'
     }, {
         id: 6,
         title: 'Ці лапки тут, щоб тобі допомогти....Раптом заблукаєш.',
-        image: 'animals/cat_cute.png'
+        image: 'animalsChris/cat_cute.png'
     }, {
         id: 7,
         title: 'Цейвот..Хочеш такі модні окуляри як в мене? - тобі в "аксесуари".',
-        image: 'animals/cat_cool.png'
+        image: 'animalsChris/cat_cool.png'
     },
 ];
 
