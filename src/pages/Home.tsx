@@ -62,7 +62,7 @@ const Home = () => {
           </div>
         )}
 
-        <div className="bg-gradient-to-b from-white via-red-300 md:from-[#313131] md:via-white py-3 px-2 md:px-3">
+        <div className="bg-gradient-to-b from-white via-red-300 md:from-[#313131] md:via-white py-3 px-2 md:px-3 relative">
           <div className="gilroy uppercase text-white text-base md:text-xl pb-2 pl-4">
             <i className="bg-[#111111] px-3.5 py-0.5 rounded-xl">Вибір покупців</i>
           </div>
@@ -77,7 +77,7 @@ const Home = () => {
         <div className="relative">
           {!isMobile ? (
             <LazyLoadImage
-              src="animals/cat_sleep.png"
+              src="animalsChris/cat_sleep.png"
               className="absolute w-[250px] z-10 right-5 top-0 drop-shadow-lg shadow-[#ccc]"
             />
           ) : (
