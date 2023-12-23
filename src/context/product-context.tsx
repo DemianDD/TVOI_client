@@ -64,13 +64,13 @@ export const ProductContext = createContext<ProductContextProps>({
 });
 
 const categoryLabelMap = {
-    "bracelets": "bracelet_name|A",
-    "necklace": "necklace_name|A",
-    "earrings": "earring_name|A",
-    "rings": "ring_name|A",
-    "charms": "charm_name|A",
-    "watches": "watch_name|A",
-    "accessories": "accesorrie_name|A",
+    "bracelets": { label: "bracelet_name|A", sizes: [16, 17, 18] },
+    "necklaces": { label: "necklace_name|A", sizes: ['40-45cm'] },
+    "earrings": { label: "earring_name|A", sizes: ['єдиний розмір'] },
+    "rings": { label: "ring_name|A", sizes: [54, 56, 58] },
+    "charms": { label: "charm_name|A", sizes: ['єдиний розмір'] },
+    "watches": { label: "watch_name|A", sizes: ['єдиний розмір'] },
+    "accessories": { label: "accesorrie_name|A", sizes: ['єдиний розмір'] },
 };
 
 export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) => {
@@ -91,7 +91,7 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
         popularity: 5,
         customPopularity: 5,
         images: [""],
-        colors: [""],
+        colors: ["silver|A", "gold|A", "rosegold|A"],
         sizes: [""],
         realPhotos: [""],
         collection: '',
@@ -109,16 +109,21 @@ export const ProductProvider: React.FC<ProductProviderProps> = ({ children }) =>
     const handleSelectChange = (event: SelectChangeEvent) => {
         const selectedCategory = event.target.value;
         setCategory(selectedCategory);
-
-        const newLabelName = categoryLabelMap[selectedCategory] || '';
+    
+        const categoryData = categoryLabelMap[selectedCategory];
+        const newLabelName = categoryData ? categoryData.label : '';
+        const newSizes = categoryData ? categoryData.sizes : ['']; // Default to an empty array if no category is found
+    
         setProductFields(prevFields => ({
             ...prevFields,
             labelName: newLabelName,
-        }))
-    }
+            sizes: newSizes,
+        }));
+    };
 
     const getProducts = async () => {
         try {
+            //dont forget to remove "s" and the end
             const response = await axios.get('http://localhost:10000/api/getAllProducts');
             const sortedData = response.data.sort((a, b) => {
                 if (a.labelName && b.labelName) {

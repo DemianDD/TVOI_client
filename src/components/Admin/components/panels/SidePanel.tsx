@@ -4,9 +4,9 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import EditIcon from '@mui/icons-material/Edit';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-import AddTab from '../ActionTabs/AddTab';
-import EditTab from '../ActionTabs/EditTab';
-import DeleteTab from '../ActionTabs/DeleteTab';
+import AddTab from '../ActionTabs/addtab/AddTab';
+import EditTab from '../ActionTabs/edittab/EditTab';
+import DeleteTab from '../ActionTabs/deletetab/DeleteTab';
 
 const inputFields = [
     { type: 'text', propertyName: 'labelName', placeholder: 'Label Name' },
@@ -30,7 +30,7 @@ const inputFields = [
 const SidePanel = () => {
     const [value, setValue] = React.useState(0);
     return (
-        <div className='w-[500px] bg-white flex flex-col items-center p-3 border-r-2 border-[#ccc]'>
+        <div className='w-[500px] bg-white flex flex-col items-center p-3 border-r-2 border-[#ccc]' style={{height: 'calc(100vh - 50px)'}}>
             <div className='w-full'>
                 <BottomNavigation
                     showLabels
