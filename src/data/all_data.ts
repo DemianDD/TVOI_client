@@ -135,6 +135,251 @@ export const ALL_DATA: any[] = [
       realPhotos: []
     },
     {
+      id: 'pajkhdja-s6d6sd6s-44ss4dsd4',
+      count: 0,
+      collection: "pandora",
+      category: "bracelets",
+      labelName: "bracelet_name|A",
+      brand: "Pandora",
+      price: 1590,
+      salePrice: 0,
+      images: [
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/18769/conversions/PNGTRPNT_599694C01_V2_RGB-webp.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/18768/conversions/PNGTRPNT_599694C01_RGB-webp.webp",
+        },
+        { 
+          id:'pajkhdja-s6d6assd6s-44ss44',
+          url: "https://static.e-pandora.ua/18771/conversions/PNGTRPNT_599694C01_V4_RGB-webp.webp",
+        },
+        {
+          id:'pajkhdja-s6d6cvsd6s-44ss44',
+          url: "https://static.e-pandora.ua/18773/responsive-images/PNGTRPNT_599694C01_ABC123_MODEL_eCOM_02_RGB___webp_960_960.webp",
+        },
+      ],
+      weight: 14.2,
+      colors: [
+        {
+          id:'pajkhdja-s6d6sgd6s-44ssgs44',
+          name: "silver|A",
+        },
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id:'pajkhdja-s6d6sd6s-44wrfwss44',
+          value: '17.5',
+        },
+        {
+          id:'pajkhdja-s6d6sd6s-44sgrs44',
+          value: '19',
+        },
+        {
+          id:'pajkhdja-s6d6sd6s-44ss44',
+          value: '21',
+        },
+      ],
+      description: "",
+      popularity: 25,
+      customPopularity: 25,
+      packaging: 'basic_packaging|A',
+      realPhotos: []
+    },
+    {
+      id: 'KHDaejfwegjwfgwerg-s6d6sd6s-44ss4dsd4',
+      count: 0,
+      collection: "pandora",
+      category: "bracelets",
+      labelName: "bracelet_name|A",
+      brand: "Pandora",
+      price: 1560,
+      salePrice: 0,
+      images: [
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/23936/conversions/1695903884-webp.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/23935/responsive-images/1695903881___webp_960_960.webp",
+        },
+      ],
+      weight: 14.2,
+      colors: [
+        {
+          id:'pajkhdja-s6d6sgd6s-44ssgs44',
+          name: "silver|A",
+        },
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id:'pajkhdja-s6d6sd6s-44wrfwss44',
+          value: '17.5',
+        },
+        {
+          id:'pajkhdja-s6d6sd6s-44sgrs44',
+          value: '19',
+        },
+        {
+          id:'pajkhdja-s6d6sd6s-44ss44',
+          value: '21',
+        },
+      ],
+      description: "",
+      popularity: 25,
+      customPopularity: 25,
+      packaging: 'basic_packaging|A',
+      realPhotos: []
+    },
+    {
+      id: 'KHAduhqeifwef-s6d6sd6s-44ss4dsd4',
+      count: 0,
+      collection: "pandora",
+      category: "bracelets",
+      labelName: "bracelet_name|A",
+      brand: "Pandora",
+      price: 1195,
+      salePrice: 0,
+      images: [
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/17575/responsive-images/PNGTRPNT_599493C00_V3_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/17576/responsive-images/PNGTRPNT_599493C00_V4_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/17574/responsive-images/PNGTRPNT_599493C00_V2_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/17577/responsive-images/PNGTRPNT_599493C00_ABC123_MODEL_eCOM_01_RGB___webp_960_960.webp",
+        },
+      ],
+      weight: 8.6,
+      colors: [
+        {
+          id:'pajkhdja-s6d6sgd6s-44ssgs44',
+          name: "silver|A",
+        },
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id:'pajkhdja-s6d6sd6s-44wrfwss44',
+          value: '17.5',
+        },
+        {
+          id:'pajkhdja-s6d6sd6s-44sgrs44',
+          value: '19',
+        },
+      ],
+      description: "",
+      popularity: 5,
+      customPopularity: 5,
+      packaging: 'basic_packaging|A',
+      realPhotos: []
+    },
+    {
+      id: 'KAHdiakfkwefgw-s6d6sd6s-44ss4dsd4',
+      count: 0,
+      collection: "pandora",
+      category: "bracelets",
+      labelName: "bracelet_name|A",
+      brand: "Pandora",
+      price: 1290,
+      salePrice: 0,
+      images: [
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/17626/responsive-images/PNGTRPNT_599375C01_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/17629/responsive-images/PNGTRPNT_599375C01_V4_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/17628/responsive-images/PNGTRPNT_599375C01_V3_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/17627/responsive-images/PNGTRPNT_599375C01_V2_RGB___webp_960_960.webp",
+        },
+      ],
+      weight: 12.6,
+      colors: [
+        {
+          id:'pajkhdja-s6d6sgd6s-44ssgs44',
+          name: "silver|A",
+        },
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id:'pajkhdja-s6d6sd6s-44wrfwss44',
+          value: 'єдиний розмір',
+        },
+      ],
+      description: "",
+      popularity: 5,
+      customPopularity: 5,
+      packaging: 'basic_packaging|A',
+      realPhotos: []
+    },
+
+    {
+      id: 'OWUriuwqefdcjasid-s6d6sd6s-44ss4dsd4',
+      count: 0,
+      collection: "pandora",
+      category: "bracelets",
+      labelName: "bracelet_name|A",
+      brand: "Pandora",
+      price: 1365,
+      salePrice: 0,
+      images: [
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/7624/responsive-images/PNGTRPNT_598342CZ_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6fsdsd6s-44ss44',
+          url: "https://static.e-pandora.ua/7648/responsive-images/PNGTRPNT_598342CZ_V2_RGB___webp_960_960.webp",
+        },
+        {
+          id:'pajkhdja-s6d6swdd6s-44ss44',
+          url: "https://static.e-pandora.ua/7591/responsive-images/PNGTRPNT_598342CZ_V3_RGB___webp_960_960.webp",
+        },
+      ],
+      weight: 11.8,
+      colors: [
+        {
+          id:'pajkhdja-s6d6sgd6s-44ssgs44',
+          name: "silver|A",
+        },
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id:'pajkhdja-s6d6sd6s-44wrfwss44',
+          value: 'єдиний розмір',
+        },
+      ],
+      description: "",
+      popularity: 5,
+      customPopularity: 5,
+      packaging: 'basic_packaging|A',
+      realPhotos: []
+    },
+    
+    {
       id: 'JSjgdjasdhj3223-232nsdm3n-dsdsds2ed',
       count: 0,
       collection: "Tiffany classic",
@@ -900,6 +1145,100 @@ export const ALL_DATA: any[] = [
         }
       ],
       description: "Це ніжне кольє з підвіскою у вигляді чотирилистої конюшини стане справжнім талісманом на вашій шиї. Воно характеризується надзвичайно витонченим дизайном і точним виконанням. Довжина срібного якірного ланцюжка становить 38 см, його можна вкоротити до 36 см. Тому з цим стильним срібним кольє легко створювати нові ювелірні образи. Номер Моделі: KE2037-001-21",
+      popularity: 4,
+      customPopularity: 4,
+      packaging: "Оригінальна коробка бренду",
+      realPhotos: []
+    },
+    {
+      id: 'PAodoajfkwqf-FDSFDSS-dwedqASwdqwf',
+      count: 0,
+      collection: "Pandora",
+      category: "necklaces",
+      labelName: "necklace_name|A",
+      brand: "Pandora",
+      price: 1295,
+      salePrice: 0,
+      images: [
+        {
+          id: 'THOMSBNJAD-FDSadFDSS-dwedqplkASwdqwf',
+          url: "https://static.e-pandora.ua/11406/responsive-images/PNGTRPNT_397436CZ_RGB___webp_960_960.webp"
+        },
+        {
+          id: 'THOMSBNJAD-FDSFasdsDSS-asdcadawe',
+          url: "https://static.e-pandora.ua/11441/responsive-images/PNGTRPNT_397436CZ_cacidi___webp_960_960.webp"
+        },
+        {
+          id: 'THOMSBNJAD-LKgdsksldj-asdcadawe',
+          url: "https://static.e-pandora.ua/11487/responsive-images/PNGTRPNT_397436CZ_eCom_RGB___webp_960_960.webp"
+        },
+        {
+          id: 'THOMSBNJAD-CVBNDKjhds-asdcadawe',
+          url: "https://static.e-pandora.ua/16860/responsive-images/PNGTRPNT_397436CZ_ABC123_MODEL_eCOM_02_RGB___webp_960_960.webp"
+        }
+      ],
+      weight: 14.3,
+      colors: [
+        {
+          id: 'THOMSBNJAD-FDS213ewdFDSS-dwedqsadASwdqwf',
+          name: "silver|A"
+        }
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id: 'THOMSBNJAD-dwsa-dwedqASwdqwf',
+          value: "45 cm"
+        }
+      ],
+      description: "",
+      popularity: 4,
+      customPopularity: 4,
+      packaging: "Оригінальна коробка бренду",
+      realPhotos: []
+    },
+    {
+      id: 'LJAdkhajwfqe-FDSFDSS-dwedqASwdqwf',
+      count: 0,
+      collection: "Pandora",
+      category: "necklaces",
+      labelName: "necklace_name|A",
+      brand: "Pandora",
+      price: 4495,
+      salePrice: 0,
+      images: [
+        {
+          id: 'Panajhdsneck-FDSadFDSS-dwedqplkASwdqwf',
+          url: "https://static.e-pandora.ua/18817/responsive-images/PNGTRPNT_399658C01_V2_RGB___webp_960_960.webp"
+        },
+        {
+          id: 'THOMSBNJAD-FDSFasdsDSS-asdcadawe',
+          url: "https://static.e-pandora.ua/18819/responsive-images/PNGTRPNT_399658C01_V4_RGB___webp_960_960.webp"
+        },
+        {
+          id: 'THOMSBNJAD-LKgdsksldj-asdcadawe',
+          url: "https://static.e-pandora.ua/18818/responsive-images/PNGTRPNT_399658C01_V3_RGB___webp_960_960.webp"
+        },
+        {
+          id: 'THOMSBNJAD-CVBNDKjhds-asdcadawe',
+          url: "https://static.e-pandora.ua/18821/responsive-images/PNGTRPNT_399658C01_ABC123_MODEL_eCOM_02_RGB___webp_960_960.webp"
+        }
+      ],
+      weight: 36.8,
+      colors: [
+        {
+          id: 'THOMSBNJAD-FDS213ewdFDSS-dwedqsadASwdqwf',
+          name: "silver|A"
+        }
+      ],
+      metal: "silver925|A",
+      sizes: [
+        {
+          id: 'THOMSBNJAD-dwsa-dwedqASwdqwf',
+          value: "45 cm"
+        }
+      ],
+      description: "Намисто з прісноводними культивованими перлами Pandora ME — це класична прикраса з перлами у новій інтерпретації, що відкриває безмежні можливості для персоналізації дизайну.",
       popularity: 4,
       customPopularity: 4,
       packaging: "Оригінальна коробка бренду",
