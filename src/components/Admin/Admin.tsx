@@ -45,9 +45,9 @@ const Admin = () => {
                     </form> 
                 </div>
                 : 
-                <div className='flex'>
-                    <SidePanel/>
-                    <ControlPanel/>
+                <div className=''>
+                    <div className='fixed left-0 top-[50px] z-10'><SidePanel/></div>
+                    <div className='fixed left-[500px] top-[50px] h-full' style={{width: 'calc(100vw - 500px)'}}><ControlPanel/></div>
                 </div>}
             </div>
         </div>
